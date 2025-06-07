@@ -1,0 +1,7 @@
+{
+  "package_name": "vision_interfaces",
+  "non_idl_tuples": [
+    "/home/new-sentry/Desktop/boom_ws/src/vision_interfaces:msg/Uart.msg",
+    "/home/new-sentry/Desktop/boom_ws/src/vision_interfaces:msg/Uartf.msg"
+  ]
+}

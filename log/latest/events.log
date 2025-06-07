@@ -1,0 +1,207 @@
+[0.000000] (-) TimerEvent: {}
+[0.000564] (-) JobUnselected: {'identifier': 'display'}
+[0.000770] (-) JobUnselected: {'identifier': 'hik_camera_ros2_driver'}
+[0.000799] (-) JobUnselected: {'identifier': 'serial'}
+[0.000823] (-) JobUnselected: {'identifier': 'vision_interfaces'}
+[0.000848] (resolve) JobQueued: {'identifier': 'resolve', 'dependencies': OrderedDict([('vision_interfaces', '/home/qiqi/Desktop/boom_ws/install/vision_interfaces')])}
+[0.000880] (resolve) JobStarted: {'identifier': 'resolve'}
+[0.025977] (resolve) JobProgress: {'identifier': 'resolve', 'progress': 'cmake'}
+[0.027207] (resolve) JobProgress: {'identifier': 'resolve', 'progress': 'build'}
+[0.028749] (resolve) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/qiqi/Desktop/boom_ws/build/resolve', '--', '-j8', '-l8'], 'cwd': '/home/qiqi/Desktop/boom_ws/build/resolve', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'qiqi'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/qiqi/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('GIT_ASKPASS', '/snap/code/192/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/qiqi/Desktop/boom_ws/install/vision_interfaces/lib:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/home/qiqi/Desktop/boom_ws/install/hik_camera_ros2_driver/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32'), ('HOME', '/home/qiqi'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.100.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/192/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/qiqi/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/192/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/192/usr/share/code/code'), ('MANAGERPID', '984'), ('SYSTEMD_EXEC_PID', '1138'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2306'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/qiqi/Desktop/boom_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'qiqi'), ('JOURNAL_STREAM', '8:9908'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'qiqi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/qiqi-Default-string:@/tmp/.ICE-unix/1091,unix/qiqi-Default-string:/tmp/.ICE-unix/1091'), ('GTK_EXE_PREFIX', '/snap/code/192/usr'), ('INVOCATION_ID', 'f219bf3c50124441b7da7f4018820e8f'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/192/usr/lib/locale'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/qiqi/snap/code/192/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZMNA72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7b89686416.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/qiqi/snap/code/192/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/qiqi/Desktop/boom_ws/install/serial:/home/qiqi/Desktop/boom_ws/install/resolve:/home/qiqi/Desktop/boom_ws/install/vision_interfaces:/home/qiqi/Desktop/boom_ws/install/hik_camera_ros2_driver:/home/qiqi/Desktop/boom_ws/install/display:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/qiqi/Desktop/boom_ws/build/resolve'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/qiqi/snap/code/192/.local/share:/home/qiqi/snap/code/192:/snap/code/192/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/qiqi/Desktop/boom_ws/install/vision_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/qiqi/Desktop/boom_ws/install/vision_interfaces:/home/qiqi/Desktop/boom_ws/install/serial:/home/qiqi/Desktop/boom_ws/install/resolve:/home/qiqi/Desktop/boom_ws/install/hik_camera_ros2_driver:/home/qiqi/Desktop/boom_ws/install/display:/opt/ros/humble'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib')]), 'shell': False}
+[0.099602] (-) TimerEvent: {}
+[0.150129] (resolve) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target resolve\x1b[0m\n'}
+[0.200223] (-) TimerEvent: {}
+[0.239427] (resolve) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/resolve.dir/src/resolve_node.cpp.o\x1b[0m\n'}
+[0.300402] (-) TimerEvent: {}
+[0.400980] (-) TimerEvent: {}
+[0.501473] (-) TimerEvent: {}
+[0.603069] (-) TimerEvent: {}
+[0.703796] (-) TimerEvent: {}
+[0.804513] (-) TimerEvent: {}
+[0.904962] (-) TimerEvent: {}
+[1.005398] (-) TimerEvent: {}
+[1.105824] (-) TimerEvent: {}
+[1.206195] (-) TimerEvent: {}
+[1.306685] (-) TimerEvent: {}
+[1.407223] (-) TimerEvent: {}
+[1.507707] (-) TimerEvent: {}
+[1.608098] (-) TimerEvent: {}
+[1.708609] (-) TimerEvent: {}
+[1.809090] (-) TimerEvent: {}
+[1.909512] (-) TimerEvent: {}
+[2.009925] (-) TimerEvent: {}
+[2.110329] (-) TimerEvent: {}
+[2.210814] (-) TimerEvent: {}
+[2.311305] (-) TimerEvent: {}
+[2.411731] (-) TimerEvent: {}
+[2.512290] (-) TimerEvent: {}
+[2.612965] (-) TimerEvent: {}
+[2.713422] (-) TimerEvent: {}
+[2.813970] (-) TimerEvent: {}
+[2.914409] (-) TimerEvent: {}
+[3.014884] (-) TimerEvent: {}
+[3.115361] (-) TimerEvent: {}
+[3.215887] (-) TimerEvent: {}
+[3.316470] (-) TimerEvent: {}
+[3.416987] (-) TimerEvent: {}
+[3.517492] (-) TimerEvent: {}
+[3.618043] (-) TimerEvent: {}
+[3.718466] (-) TimerEvent: {}
+[3.819021] (-) TimerEvent: {}
+[3.919548] (-) TimerEvent: {}
+[4.019982] (-) TimerEvent: {}
+[4.120492] (-) TimerEvent: {}
+[4.221022] (-) TimerEvent: {}
+[4.321552] (-) TimerEvent: {}
+[4.422071] (-) TimerEvent: {}
+[4.522593] (-) TimerEvent: {}
+[4.623049] (-) TimerEvent: {}
+[4.723533] (-) TimerEvent: {}
+[4.824081] (-) TimerEvent: {}
+[4.924633] (-) TimerEvent: {}
+[5.025150] (-) TimerEvent: {}
+[5.125691] (-) TimerEvent: {}
+[5.226116] (-) TimerEvent: {}
+[5.326565] (-) TimerEvent: {}
+[5.427130] (-) TimerEvent: {}
+[5.527707] (-) TimerEvent: {}
+[5.628317] (-) TimerEvent: {}
+[5.728855] (-) TimerEvent: {}
+[5.829330] (-) TimerEvent: {}
+[5.929877] (-) TimerEvent: {}
+[6.030431] (-) TimerEvent: {}
+[6.131026] (-) TimerEvent: {}
+[6.231522] (-) TimerEvent: {}
+[6.332156] (-) TimerEvent: {}
+[6.432854] (-) TimerEvent: {}
+[6.533440] (-) TimerEvent: {}
+[6.634107] (-) TimerEvent: {}
+[6.734599] (-) TimerEvent: {}
+[6.835133] (-) TimerEvent: {}
+[6.935761] (-) TimerEvent: {}
+[7.036371] (-) TimerEvent: {}
+[7.136939] (-) TimerEvent: {}
+[7.237472] (-) TimerEvent: {}
+[7.299847] (resolve) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qiqi/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Resolve::Send(std::string, std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.300230] (resolve) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qiqi/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:101:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.300412] (resolve) StderrLine: {'line': b'  101 |                 for (int i=0; \x1b[01;35m\x1b[Ki<center_x.length()\x1b[m\x1b[K; i++) {\n'}
+[7.300566] (resolve) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.300713] (resolve) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qiqi/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:107:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.300859] (resolve) StderrLine: {'line': b'  107 |                 for (int i=0; \x1b[01;35m\x1b[Ki<center_y.length()\x1b[m\x1b[K; i++) {\n'}
+[7.301016] (resolve) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.321234] (resolve) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qiqi/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid ImageResolveCallback(const ConstSharedPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.321560] (resolve) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qiqi/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:209:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::vector<cv::Point_<int> > >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.321715] (resolve) StderrLine: {'line': b'  209 |         for (int i=0;\x1b[01;35m\x1b[Ki<contours.size()\x1b[m\x1b[K; i++) {\n'}
+[7.321861] (resolve) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.322125] (resolve) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qiqi/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:217:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::vector<cv::Point_<int> > >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.322303] (resolve) StderrLine: {'line': b'  217 |                 for (int i=0;\x1b[01;35m\x1b[Ki<contours.size()\x1b[m\x1b[K; i++) {\n'}
+[7.322443] (resolve) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.322664] (resolve) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qiqi/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:232:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.322815] (resolve) StderrLine: {'line': b'  232 |         for(int i = 0; \x1b[01;35m\x1b[Ki < area_vec.size()\x1b[m\x1b[K; i++) {\n'}
+[7.322958] (resolve) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.327766] (resolve) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qiqi/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:187:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Karea\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.328024] (resolve) StderrLine: {'line': b'  187 |         double \x1b[01;35m\x1b[Karea\x1b[m\x1b[K;\n'}
+[7.328171] (resolve) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[7.328305] (resolve) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qiqi/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:194:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kimg_area\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.328442] (resolve) StderrLine: {'line': b'  194 |         float \x1b[01;35m\x1b[Kimg_area\x1b[m\x1b[K = 1440*1080;\n'}
+[7.328573] (resolve) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.328712] (resolve) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qiqi/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:200:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ktext_cnt\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.328857] (resolve) StderrLine: {'line': b'  200 |         int \x1b[01;35m\x1b[Ktext_cnt\x1b[m\x1b[K = 0;\n'}
+[7.328999] (resolve) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.337586] (-) TimerEvent: {}
+[7.438104] (-) TimerEvent: {}
+[7.538794] (-) TimerEvent: {}
+[7.639315] (-) TimerEvent: {}
+[7.739862] (-) TimerEvent: {}
+[7.840424] (-) TimerEvent: {}
+[7.941007] (-) TimerEvent: {}
+[8.041533] (-) TimerEvent: {}
+[8.142088] (-) TimerEvent: {}
+[8.242610] (-) TimerEvent: {}
+[8.343137] (-) TimerEvent: {}
+[8.443740] (-) TimerEvent: {}
+[8.544214] (-) TimerEvent: {}
+[8.644651] (-) TimerEvent: {}
+[8.745154] (-) TimerEvent: {}
+[8.845608] (-) TimerEvent: {}
+[8.945996] (-) TimerEvent: {}
+[9.046438] (-) TimerEvent: {}
+[9.146906] (-) TimerEvent: {}
+[9.249099] (-) TimerEvent: {}
+[9.349934] (-) TimerEvent: {}
+[9.450803] (-) TimerEvent: {}
+[9.551468] (-) TimerEvent: {}
+[9.652018] (-) TimerEvent: {}
+[9.752467] (-) TimerEvent: {}
+[9.853010] (-) TimerEvent: {}
+[9.953593] (-) TimerEvent: {}
+[10.054239] (-) TimerEvent: {}
+[10.154759] (-) TimerEvent: {}
+[10.255281] (-) TimerEvent: {}
+[10.355723] (-) TimerEvent: {}
+[10.456180] (-) TimerEvent: {}
+[10.556703] (-) TimerEvent: {}
+[10.657301] (-) TimerEvent: {}
+[10.757861] (-) TimerEvent: {}
+[10.858337] (-) TimerEvent: {}
+[10.958827] (-) TimerEvent: {}
+[11.059274] (-) TimerEvent: {}
+[11.159826] (-) TimerEvent: {}
+[11.260301] (-) TimerEvent: {}
+[11.360701] (-) TimerEvent: {}
+[11.461171] (-) TimerEvent: {}
+[11.561629] (-) TimerEvent: {}
+[11.662097] (-) TimerEvent: {}
+[11.762497] (-) TimerEvent: {}
+[11.862892] (-) TimerEvent: {}
+[11.963281] (-) TimerEvent: {}
+[12.063678] (-) TimerEvent: {}
+[12.164144] (-) TimerEvent: {}
+[12.264648] (-) TimerEvent: {}
+[12.365198] (-) TimerEvent: {}
+[12.465675] (-) TimerEvent: {}
+[12.566103] (-) TimerEvent: {}
+[12.666508] (-) TimerEvent: {}
+[12.766932] (-) TimerEvent: {}
+[12.867422] (-) TimerEvent: {}
+[12.967850] (-) TimerEvent: {}
+[13.068285] (-) TimerEvent: {}
+[13.168871] (-) TimerEvent: {}
+[13.269431] (-) TimerEvent: {}
+[13.369874] (-) TimerEvent: {}
+[13.426877] (resolve) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable resolve\x1b[0m\n'}
+[13.470086] (-) TimerEvent: {}
+[13.570519] (-) TimerEvent: {}
+[13.670844] (-) TimerEvent: {}
+[13.771271] (-) TimerEvent: {}
+[13.871692] (-) TimerEvent: {}
+[13.972109] (-) TimerEvent: {}
+[14.072437] (-) TimerEvent: {}
+[14.162742] (resolve) StdoutLine: {'line': b'[100%] Built target resolve\n'}
+[14.172562] (-) TimerEvent: {}
+[14.182878] (resolve) CommandEnded: {'returncode': 0}
+[14.184501] (resolve) JobProgress: {'identifier': 'resolve', 'progress': 'install'}
+[14.217734] (resolve) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/qiqi/Desktop/boom_ws/build/resolve'], 'cwd': '/home/qiqi/Desktop/boom_ws/build/resolve', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'qiqi'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/qiqi/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('GIT_ASKPASS', '/snap/code/192/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/qiqi/Desktop/boom_ws/install/vision_interfaces/lib:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/home/qiqi/Desktop/boom_ws/install/hik_camera_ros2_driver/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32'), ('HOME', '/home/qiqi'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.100.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/192/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/qiqi/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/192/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/192/usr/share/code/code'), ('MANAGERPID', '984'), ('SYSTEMD_EXEC_PID', '1138'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2306'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/qiqi/Desktop/boom_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'qiqi'), ('JOURNAL_STREAM', '8:9908'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'qiqi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/qiqi-Default-string:@/tmp/.ICE-unix/1091,unix/qiqi-Default-string:/tmp/.ICE-unix/1091'), ('GTK_EXE_PREFIX', '/snap/code/192/usr'), ('INVOCATION_ID', 'f219bf3c50124441b7da7f4018820e8f'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/192/usr/lib/locale'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/qiqi/snap/code/192/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZMNA72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7b89686416.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/qiqi/snap/code/192/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/qiqi/Desktop/boom_ws/install/serial:/home/qiqi/Desktop/boom_ws/install/resolve:/home/qiqi/Desktop/boom_ws/install/vision_interfaces:/home/qiqi/Desktop/boom_ws/install/hik_camera_ros2_driver:/home/qiqi/Desktop/boom_ws/install/display:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/qiqi/Desktop/boom_ws/build/resolve'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/qiqi/snap/code/192/.local/share:/home/qiqi/snap/code/192:/snap/code/192/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/qiqi/Desktop/boom_ws/install/vision_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/qiqi/Desktop/boom_ws/install/vision_interfaces:/home/qiqi/Desktop/boom_ws/install/serial:/home/qiqi/Desktop/boom_ws/install/resolve:/home/qiqi/Desktop/boom_ws/install/hik_camera_ros2_driver:/home/qiqi/Desktop/boom_ws/install/display:/opt/ros/humble'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib')]), 'shell': False}
+[14.253175] (resolve) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.256287] (resolve) StdoutLine: {'line': b'-- Installing: /home/qiqi/Desktop/boom_ws/install/resolve/lib/resolve/resolve\n'}
+[14.263867] (resolve) StdoutLine: {'line': b'-- Set runtime path of "/home/qiqi/Desktop/boom_ws/install/resolve/lib/resolve/resolve" to ""\n'}
+[14.265098] (resolve) StdoutLine: {'line': b'-- Up-to-date: /home/qiqi/Desktop/boom_ws/install/resolve/share/ament_index/resource_index/package_run_dependencies/resolve\n'}
+[14.266010] (resolve) StdoutLine: {'line': b'-- Up-to-date: /home/qiqi/Desktop/boom_ws/install/resolve/share/ament_index/resource_index/parent_prefix_path/resolve\n'}
+[14.266818] (resolve) StdoutLine: {'line': b'-- Up-to-date: /home/qiqi/Desktop/boom_ws/install/resolve/share/resolve/environment/ament_prefix_path.sh\n'}
+[14.267631] (resolve) StdoutLine: {'line': b'-- Up-to-date: /home/qiqi/Desktop/boom_ws/install/resolve/share/resolve/environment/ament_prefix_path.dsv\n'}
+[14.268252] (resolve) StdoutLine: {'line': b'-- Up-to-date: /home/qiqi/Desktop/boom_ws/install/resolve/share/resolve/environment/path.sh\n'}
+[14.268546] (resolve) StdoutLine: {'line': b'-- Up-to-date: /home/qiqi/Desktop/boom_ws/install/resolve/share/resolve/environment/path.dsv\n'}
+[14.268818] (resolve) StdoutLine: {'line': b'-- Up-to-date: /home/qiqi/Desktop/boom_ws/install/resolve/share/resolve/local_setup.bash\n'}
+[14.269133] (resolve) StdoutLine: {'line': b'-- Up-to-date: /home/qiqi/Desktop/boom_ws/install/resolve/share/resolve/local_setup.sh\n'}
+[14.269419] (resolve) StdoutLine: {'line': b'-- Up-to-date: /home/qiqi/Desktop/boom_ws/install/resolve/share/resolve/local_setup.zsh\n'}
+[14.269681] (resolve) StdoutLine: {'line': b'-- Up-to-date: /home/qiqi/Desktop/boom_ws/install/resolve/share/resolve/local_setup.dsv\n'}
+[14.269963] (resolve) StdoutLine: {'line': b'-- Installing: /home/qiqi/Desktop/boom_ws/install/resolve/share/resolve/package.dsv\n'}
+[14.270245] (resolve) StdoutLine: {'line': b'-- Up-to-date: /home/qiqi/Desktop/boom_ws/install/resolve/share/ament_index/resource_index/packages/resolve\n'}
+[14.270511] (resolve) StdoutLine: {'line': b'-- Up-to-date: /home/qiqi/Desktop/boom_ws/install/resolve/share/resolve/cmake/resolveConfig.cmake\n'}
+[14.270793] (resolve) StdoutLine: {'line': b'-- Up-to-date: /home/qiqi/Desktop/boom_ws/install/resolve/share/resolve/cmake/resolveConfig-version.cmake\n'}
+[14.271103] (resolve) StdoutLine: {'line': b'-- Up-to-date: /home/qiqi/Desktop/boom_ws/install/resolve/share/resolve/package.xml\n'}
+[14.272747] (-) TimerEvent: {}
+[14.276397] (resolve) CommandEnded: {'returncode': 0}
+[14.373234] (-) TimerEvent: {}
+[14.418118] (resolve) JobEnded: {'identifier': 'resolve', 'rc': 0}
+[14.426170] (-) EventReactorShutdown: {}

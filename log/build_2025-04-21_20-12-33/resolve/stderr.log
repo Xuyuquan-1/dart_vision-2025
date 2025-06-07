@@ -1,0 +1,22 @@
+[01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:[m[K In member function ‘[01m[Kvoid Resolve::Send(std::string, std::string)[m[K’:
+[01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:60:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::__cxx11::basic_string<char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   60 |                 for (int i=0; [01;35m[Ki<center_x.length()[m[K; i++) {
+      |                               [01;35m[K~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:66:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::__cxx11::basic_string<char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   66 |                 for (int i=0; [01;35m[Ki<center_y.length()[m[K; i++) {
+      |                               [01;35m[K~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:[m[K In function ‘[01m[Kvoid ImageResolveCallback(const ConstSharedPtr&)[m[K’:
+[01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:118:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kt1[m[K’ was not declared in this scope; did you mean ‘[01m[Kt2[m[K’?
+  118 |         inferenceTime = (t2 - [01;31m[Kt1[m[K) / cv::getTickFrequency() * 1000;
+      |                               [01;31m[K^~[m[K
+      |                               [32m[Kt2[m[K
+[01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:122:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kt1[m[K’ was not declared in this scope; did you mean ‘[01m[Kt2[m[K’?
+  122 | ime = inferenceTime * 0.95 + 0.05 * (t2 - [01;31m[Kt1[m[K) / cv::getTickFrequency() * 1000;
+      |                                           [01;31m[K^~[m[K
+      |                                           [32m[Kt2[m[K
+[01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:156:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  156 |         for (int i=0;[01;35m[Ki<contours.size()[m[K; i++) {
+      |                      [01;35m[K~^~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/resolve.dir/build.make:76：CMakeFiles/resolve.dir/src/resolve_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/resolve.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

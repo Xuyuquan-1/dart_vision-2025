@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from vision_interfaces/msg/Uartf.msg
+// generated code does not contain a copyright notice
+
+
+module vision_interfaces {
+  module msg {
+    struct Uartf {
+      float deviation_x;
+
+      float deviation_y;
+    };
+  };
+};

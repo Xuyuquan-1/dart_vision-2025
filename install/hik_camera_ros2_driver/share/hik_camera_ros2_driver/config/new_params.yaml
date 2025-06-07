@@ -1,0 +1,2 @@
+exposure_time: 10000          # Unit: us
+gain: 30.0                      # Range: 0.0 ~ 16.9, Unit: dB

@@ -1,0 +1,4 @@
+Invoking command in '/home/new-sentry/Desktop/boom_ws/build/vision_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/new-sentry/Desktop/boom_ws/build/vision_interfaces -- -j16 -l16
+Invoked command in '/home/new-sentry/Desktop/boom_ws/build/vision_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/new-sentry/Desktop/boom_ws/build/vision_interfaces -- -j16 -l16
+Invoking command in '/home/new-sentry/Desktop/boom_ws/build/vision_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/new-sentry/Desktop/boom_ws/build/vision_interfaces
+Invoked command in '/home/new-sentry/Desktop/boom_ws/build/vision_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/new-sentry/Desktop/boom_ws/build/vision_interfaces

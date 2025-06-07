@@ -1,0 +1,51 @@
+[0.022s] Invoking command in '/home/qiqi/Desktop/boom_ws/build/resolve': CMAKE_PREFIX_PATH=/home/qiqi/Desktop/boom_ws/install/vision_interfaces:/home/qiqi/Desktop/boom_ws/install/serial:/home/qiqi/Desktop/boom_ws/install/resolve:/home/qiqi/Desktop/boom_ws/install/hik_camera_ros2_driver:/home/qiqi/Desktop/boom_ws/install/display:/opt/ros/humble LD_LIBRARY_PATH=/home/qiqi/Desktop/boom_ws/install/vision_interfaces/lib:/usr/local/lib:/home/qiqi/Desktop/boom_ws/install/hik_camera_ros2_driver/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/qiqi/Desktop/boom_ws/build/resolve -- -j8 -l8
+[0.159s] [ 50%] [32mBuilding CXX object CMakeFiles/resolve.dir/src/resolve_node.cpp.o[0m
+[6.913s] [01m[K/home/qiqi/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:[m[K In member function ‘[01m[Kvoid Resolve::Send(std::string, std::string)[m[K’:
+[6.913s] [01m[K/home/qiqi/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:101:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::__cxx11::basic_string<char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[6.913s]   101 |                 for (int i=0; [01;35m[Ki<center_x.length()[m[K; i++) {
+[6.913s]       |                               [01;35m[K~^~~~~~~~~~~~~~~~~~[m[K
+[6.913s] [01m[K/home/qiqi/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:107:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::__cxx11::basic_string<char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[6.914s]   107 |                 for (int i=0; [01;35m[Ki<center_y.length()[m[K; i++) {
+[6.914s]       |                               [01;35m[K~^~~~~~~~~~~~~~~~~~[m[K
+[6.936s] [01m[K/home/qiqi/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:[m[K In function ‘[01m[Kvoid ImageResolveCallback(const ConstSharedPtr&)[m[K’:
+[6.936s] [01m[K/home/qiqi/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:207:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[6.936s]   207 |         for (int i=0;[01;35m[Ki<contours.size()[m[K; i++) {
+[6.936s]       |                      [01;35m[K~^~~~~~~~~~~~~~~~[m[K
+[6.936s] [01m[K/home/qiqi/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:215:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[6.937s]   215 |                 for (int i=0;[01;35m[Ki<contours.size()[m[K; i++) {
+[6.937s]       |                              [01;35m[K~^~~~~~~~~~~~~~~~[m[K
+[6.937s] [01m[K/home/qiqi/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:230:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[6.937s]   230 |         for(int i = 0; [01;35m[Ki < area_vec.size()[m[K; i++) {
+[6.937s]       |                        [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[6.943s] [01m[K/home/qiqi/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:185:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.944s]   185 |         double [01;35m[Karea[m[K;
+[6.944s]       |                [01;35m[K^~~~[m[K
+[6.944s] [01m[K/home/qiqi/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:192:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kimg_area[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.944s]   192 |         float [01;35m[Kimg_area[m[K = 1440*1080;
+[6.944s]       |               [01;35m[K^~~~~~~~[m[K
+[6.945s] [01m[K/home/qiqi/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:198:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktext_cnt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.945s]   198 |         int [01;35m[Ktext_cnt[m[K = 0;
+[6.945s]       |             [01;35m[K^~~~~~~~[m[K
+[12.401s] [100%] [32m[1mLinking CXX executable resolve[0m
+[13.410s] [100%] Built target resolve
+[13.428s] Invoked command in '/home/qiqi/Desktop/boom_ws/build/resolve' returned '0': CMAKE_PREFIX_PATH=/home/qiqi/Desktop/boom_ws/install/vision_interfaces:/home/qiqi/Desktop/boom_ws/install/serial:/home/qiqi/Desktop/boom_ws/install/resolve:/home/qiqi/Desktop/boom_ws/install/hik_camera_ros2_driver:/home/qiqi/Desktop/boom_ws/install/display:/opt/ros/humble LD_LIBRARY_PATH=/home/qiqi/Desktop/boom_ws/install/vision_interfaces/lib:/usr/local/lib:/home/qiqi/Desktop/boom_ws/install/hik_camera_ros2_driver/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/qiqi/Desktop/boom_ws/build/resolve -- -j8 -l8
+[13.432s] Invoking command in '/home/qiqi/Desktop/boom_ws/build/resolve': CMAKE_PREFIX_PATH=/home/qiqi/Desktop/boom_ws/install/vision_interfaces:/home/qiqi/Desktop/boom_ws/install/serial:/home/qiqi/Desktop/boom_ws/install/resolve:/home/qiqi/Desktop/boom_ws/install/hik_camera_ros2_driver:/home/qiqi/Desktop/boom_ws/install/display:/opt/ros/humble LD_LIBRARY_PATH=/home/qiqi/Desktop/boom_ws/install/vision_interfaces/lib:/usr/local/lib:/home/qiqi/Desktop/boom_ws/install/hik_camera_ros2_driver/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --install /home/qiqi/Desktop/boom_ws/build/resolve
+[13.443s] -- Install configuration: ""
+[13.443s] -- Installing: /home/qiqi/Desktop/boom_ws/install/resolve/lib/resolve/resolve
+[13.446s] -- Set runtime path of "/home/qiqi/Desktop/boom_ws/install/resolve/lib/resolve/resolve" to ""
+[13.446s] -- Up-to-date: /home/qiqi/Desktop/boom_ws/install/resolve/share/ament_index/resource_index/package_run_dependencies/resolve
+[13.446s] -- Up-to-date: /home/qiqi/Desktop/boom_ws/install/resolve/share/ament_index/resource_index/parent_prefix_path/resolve
+[13.446s] -- Up-to-date: /home/qiqi/Desktop/boom_ws/install/resolve/share/resolve/environment/ament_prefix_path.sh
+[13.447s] -- Up-to-date: /home/qiqi/Desktop/boom_ws/install/resolve/share/resolve/environment/ament_prefix_path.dsv
+[13.447s] -- Up-to-date: /home/qiqi/Desktop/boom_ws/install/resolve/share/resolve/environment/path.sh
+[13.447s] -- Up-to-date: /home/qiqi/Desktop/boom_ws/install/resolve/share/resolve/environment/path.dsv
+[13.447s] -- Up-to-date: /home/qiqi/Desktop/boom_ws/install/resolve/share/resolve/local_setup.bash
+[13.447s] -- Up-to-date: /home/qiqi/Desktop/boom_ws/install/resolve/share/resolve/local_setup.sh
+[13.447s] -- Up-to-date: /home/qiqi/Desktop/boom_ws/install/resolve/share/resolve/local_setup.zsh
+[13.447s] -- Up-to-date: /home/qiqi/Desktop/boom_ws/install/resolve/share/resolve/local_setup.dsv
+[13.448s] -- Installing: /home/qiqi/Desktop/boom_ws/install/resolve/share/resolve/package.dsv
+[13.448s] -- Up-to-date: /home/qiqi/Desktop/boom_ws/install/resolve/share/ament_index/resource_index/packages/resolve
+[13.448s] -- Up-to-date: /home/qiqi/Desktop/boom_ws/install/resolve/share/resolve/cmake/resolveConfig.cmake
+[13.448s] -- Up-to-date: /home/qiqi/Desktop/boom_ws/install/resolve/share/resolve/cmake/resolveConfig-version.cmake
+[13.448s] -- Up-to-date: /home/qiqi/Desktop/boom_ws/install/resolve/share/resolve/package.xml
+[13.451s] Invoked command in '/home/qiqi/Desktop/boom_ws/build/resolve' returned '0': CMAKE_PREFIX_PATH=/home/qiqi/Desktop/boom_ws/install/vision_interfaces:/home/qiqi/Desktop/boom_ws/install/serial:/home/qiqi/Desktop/boom_ws/install/resolve:/home/qiqi/Desktop/boom_ws/install/hik_camera_ros2_driver:/home/qiqi/Desktop/boom_ws/install/display:/opt/ros/humble LD_LIBRARY_PATH=/home/qiqi/Desktop/boom_ws/install/vision_interfaces/lib:/usr/local/lib:/home/qiqi/Desktop/boom_ws/install/hik_camera_ros2_driver/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --install /home/qiqi/Desktop/boom_ws/build/resolve

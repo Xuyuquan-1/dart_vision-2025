@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.000425] (-) JobUnselected: {'identifier': 'display'}
+[0.000636] (-) JobUnselected: {'identifier': 'hik_camera_ros2_driver'}
+[0.000694] (-) JobUnselected: {'identifier': 'resolve'}
+[0.000720] (-) JobUnselected: {'identifier': 'serial'}
+[0.000741] (-) JobUnselected: {'identifier': 'vision_interfaces'}
+[0.000763] (-) EventReactorShutdown: {}

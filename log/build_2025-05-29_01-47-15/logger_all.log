@@ -1,0 +1,539 @@
+[0.140s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.140s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x722420c27d90>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x722420c27850>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x722420c27850>>)
+[0.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.334s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/new-sentry/Desktop/boom_ws'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['ignore', 'ignore_ament_install']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ignore'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ignore_ament_install'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['colcon_pkg']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'colcon_pkg'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['colcon_meta']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'colcon_meta'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['ros']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ros'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['cmake', 'python']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'cmake'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'python'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['python_setup_py']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'python_setup_py'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ignore', 'ignore_ament_install']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore_ament_install'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_pkg']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_pkg'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_meta']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_meta'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ros']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ros'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['cmake', 'python']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'cmake'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['python_setup_py']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python_setup_py'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ignore'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ignore_ament_install'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['colcon_pkg']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'colcon_pkg'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['colcon_meta']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'colcon_meta'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['ros']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ros'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['cmake', 'python']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'cmake'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'python'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['python_setup_py']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'python_setup_py'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(py) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(py) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(py) by extension 'ignore_ament_install'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(py) by extensions ['colcon_pkg']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(py) by extension 'colcon_pkg'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(py) by extensions ['colcon_meta']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(py) by extension 'colcon_meta'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(py) by extensions ['ros']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(py) by extension 'ros'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(py) by extensions ['cmake', 'python']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(py) by extension 'cmake'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(py) by extension 'python'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(py) by extensions ['python_setup_py']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(py) by extension 'python_setup_py'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(py/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(py/__pycache__) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(py/__pycache__) by extension 'ignore_ament_install'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(py/__pycache__) by extensions ['colcon_pkg']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(py/__pycache__) by extension 'colcon_pkg'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(py/__pycache__) by extensions ['colcon_meta']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(py/__pycache__) by extension 'colcon_meta'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(py/__pycache__) by extensions ['ros']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(py/__pycache__) by extension 'ros'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(py/__pycache__) by extensions ['cmake', 'python']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(py/__pycache__) by extension 'cmake'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(py/__pycache__) by extension 'python'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(py/__pycache__) by extensions ['python_setup_py']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(py/__pycache__) by extension 'python_setup_py'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(py/pta) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(py/pta) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(py/pta) by extension 'ignore_ament_install'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(py/pta) by extensions ['colcon_pkg']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(py/pta) by extension 'colcon_pkg'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(py/pta) by extensions ['colcon_meta']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(py/pta) by extension 'colcon_meta'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(py/pta) by extensions ['ros']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(py/pta) by extension 'ros'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(py/pta) by extensions ['cmake', 'python']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(py/pta) by extension 'cmake'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(py/pta) by extension 'python'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(py/pta) by extensions ['python_setup_py']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(py/pta) by extension 'python_setup_py'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(py/pta/pta2) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(py/pta/pta2) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(py/pta/pta2) by extension 'ignore_ament_install'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(py/pta/pta2) by extensions ['colcon_pkg']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(py/pta/pta2) by extension 'colcon_pkg'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(py/pta/pta2) by extensions ['colcon_meta']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(py/pta/pta2) by extension 'colcon_meta'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(py/pta/pta2) by extensions ['ros']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(py/pta/pta2) by extension 'ros'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(py/pta/pta2) by extensions ['cmake', 'python']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(py/pta/pta2) by extension 'cmake'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(py/pta/pta2) by extension 'python'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(py/pta/pta2) by extensions ['python_setup_py']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(py/pta/pta2) by extension 'python_setup_py'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(py/test) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(py/test) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(py/test) by extension 'ignore_ament_install'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(py/test) by extensions ['colcon_pkg']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(py/test) by extension 'colcon_pkg'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(py/test) by extensions ['colcon_meta']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(py/test) by extension 'colcon_meta'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(py/test) by extensions ['ros']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(py/test) by extension 'ros'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(py/test) by extensions ['cmake', 'python']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(py/test) by extension 'cmake'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(py/test) by extension 'python'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(py/test) by extensions ['python_setup_py']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(py/test) by extension 'python_setup_py'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/display) by extensions ['ignore', 'ignore_ament_install']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/display) by extension 'ignore'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/display) by extension 'ignore_ament_install'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/display) by extensions ['colcon_pkg']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/display) by extension 'colcon_pkg'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/display) by extensions ['colcon_meta']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/display) by extension 'colcon_meta'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/display) by extensions ['ros']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/display) by extension 'ros'
+[0.364s] DEBUG:colcon.colcon_core.package_identification:Package 'src/display' with type 'ros.ament_cmake' and name 'display'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/hik_camera_ros2_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/hik_camera_ros2_driver) by extension 'ignore'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/hik_camera_ros2_driver) by extension 'ignore_ament_install'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/hik_camera_ros2_driver) by extensions ['colcon_pkg']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/hik_camera_ros2_driver) by extension 'colcon_pkg'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/hik_camera_ros2_driver) by extensions ['colcon_meta']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/hik_camera_ros2_driver) by extension 'colcon_meta'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/hik_camera_ros2_driver) by extensions ['ros']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/hik_camera_ros2_driver) by extension 'ros'
+[0.365s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hik_camera_ros2_driver' with type 'ros.ament_cmake' and name 'hik_camera_ros2_driver'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/resolving) by extensions ['ignore', 'ignore_ament_install']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/resolving) by extension 'ignore'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/resolving) by extension 'ignore_ament_install'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/resolving) by extensions ['colcon_pkg']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/resolving) by extension 'colcon_pkg'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/resolving) by extensions ['colcon_meta']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/resolving) by extension 'colcon_meta'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/resolving) by extensions ['ros']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/resolving) by extension 'ros'
+[0.368s] DEBUG:colcon.colcon_core.package_identification:Package 'src/resolving' with type 'ros.ament_cmake' and name 'resolve'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ignore', 'ignore_ament_install']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore_ament_install'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_pkg']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_pkg'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_meta']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_meta'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ros']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ros'
+[0.369s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial' with type 'ros.ament_cmake' and name 'serial'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_interfaces) by extension 'ignore'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_interfaces) by extension 'ignore_ament_install'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_interfaces) by extensions ['colcon_pkg']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_interfaces) by extension 'colcon_pkg'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_interfaces) by extensions ['colcon_meta']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_interfaces) by extension 'colcon_meta'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_interfaces) by extensions ['ros']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_interfaces) by extension 'ros'
+[0.370s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_interfaces' with type 'ros.ament_cmake' and name 'vision_interfaces'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(video) by extensions ['ignore', 'ignore_ament_install']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(video) by extension 'ignore'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(video) by extension 'ignore_ament_install'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(video) by extensions ['colcon_pkg']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(video) by extension 'colcon_pkg'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(video) by extensions ['colcon_meta']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(video) by extension 'colcon_meta'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(video) by extensions ['ros']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(video) by extension 'ros'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(video) by extensions ['cmake', 'python']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(video) by extension 'cmake'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(video) by extension 'python'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(video) by extensions ['python_setup_py']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(video) by extension 'python_setup_py'
+[0.371s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.371s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.371s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.371s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.371s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.471s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.472s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.475s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/new-sentry/Desktop/boom_ws/install
+[0.476s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 333 installed packages in /opt/ros/humble
+[0.477s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'display' build argument 'cmake_args' from command line to 'None'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'display' build argument 'cmake_target' from command line to 'None'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'display' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'display' build argument 'cmake_clean_cache' from command line to 'False'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'display' build argument 'cmake_clean_first' from command line to 'False'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'display' build argument 'cmake_force_configure' from command line to 'False'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'display' build argument 'ament_cmake_args' from command line to 'None'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'display' build argument 'catkin_cmake_args' from command line to 'None'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'display' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.518s] DEBUG:colcon.colcon_core.verb:Building package 'display' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/new-sentry/Desktop/boom_ws/build/display', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/new-sentry/Desktop/boom_ws/install/display', 'merge_install': False, 'path': '/home/new-sentry/Desktop/boom_ws/src/display', 'symlink_install': False, 'test_result_base': None}
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'hik_camera_ros2_driver' build argument 'cmake_args' from command line to 'None'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'hik_camera_ros2_driver' build argument 'cmake_target' from command line to 'None'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'hik_camera_ros2_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'hik_camera_ros2_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'hik_camera_ros2_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'hik_camera_ros2_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'hik_camera_ros2_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'hik_camera_ros2_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'hik_camera_ros2_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.519s] DEBUG:colcon.colcon_core.verb:Building package 'hik_camera_ros2_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/new-sentry/Desktop/boom_ws/build/hik_camera_ros2_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver', 'merge_install': False, 'path': '/home/new-sentry/Desktop/boom_ws/src/hik_camera_ros2_driver', 'symlink_install': False, 'test_result_base': None}
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'vision_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'vision_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'vision_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'vision_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'vision_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'vision_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'vision_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'vision_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'vision_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.519s] DEBUG:colcon.colcon_core.verb:Building package 'vision_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/new-sentry/Desktop/boom_ws/build/vision_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/new-sentry/Desktop/boom_ws/install/vision_interfaces', 'merge_install': False, 'path': '/home/new-sentry/Desktop/boom_ws/src/vision_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'resolve' build argument 'cmake_args' from command line to 'None'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'resolve' build argument 'cmake_target' from command line to 'None'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'resolve' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'resolve' build argument 'cmake_clean_cache' from command line to 'False'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'resolve' build argument 'cmake_clean_first' from command line to 'False'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'resolve' build argument 'cmake_force_configure' from command line to 'False'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'resolve' build argument 'ament_cmake_args' from command line to 'None'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'resolve' build argument 'catkin_cmake_args' from command line to 'None'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'resolve' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.520s] DEBUG:colcon.colcon_core.verb:Building package 'resolve' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/new-sentry/Desktop/boom_ws/build/resolve', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/new-sentry/Desktop/boom_ws/install/resolve', 'merge_install': False, 'path': '/home/new-sentry/Desktop/boom_ws/src/resolving', 'symlink_install': False, 'test_result_base': None}
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to 'None'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.521s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/new-sentry/Desktop/boom_ws/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/new-sentry/Desktop/boom_ws/install/serial', 'merge_install': False, 'path': '/home/new-sentry/Desktop/boom_ws/src/serial', 'symlink_install': False, 'test_result_base': None}
+[0.521s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.524s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.525s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/new-sentry/Desktop/boom_ws/src/vision_interfaces' with build type 'ament_cmake'
+[0.525s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/new-sentry/Desktop/boom_ws/src/vision_interfaces'
+[0.530s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.531s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.531s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.540s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/new-sentry/Desktop/boom_ws/src/display' with build type 'ament_cmake'
+[0.541s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/new-sentry/Desktop/boom_ws/src/display'
+[0.541s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.541s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.545s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/new-sentry/Desktop/boom_ws/src/hik_camera_ros2_driver' with build type 'ament_cmake'
+[0.545s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/new-sentry/Desktop/boom_ws/src/hik_camera_ros2_driver'
+[0.545s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.546s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.557s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/new-sentry/Desktop/boom_ws/build/vision_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/new-sentry/Desktop/boom_ws/build/vision_interfaces -- -j16 -l16
+[0.570s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/new-sentry/Desktop/boom_ws/build/display': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/new-sentry/Desktop/boom_ws/build/display -- -j16 -l16
+[0.576s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/new-sentry/Desktop/boom_ws/build/hik_camera_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/new-sentry/Desktop/boom_ws/build/hik_camera_ros2_driver -- -j16 -l16
+[0.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/new-sentry/Desktop/boom_ws/build/hik_camera_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/new-sentry/Desktop/boom_ws/build/hik_camera_ros2_driver -- -j16 -l16
+[0.673s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/new-sentry/Desktop/boom_ws/build/hik_camera_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/new-sentry/Desktop/boom_ws/build/hik_camera_ros2_driver
+[0.675s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/new-sentry/Desktop/boom_ws/build/display' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/new-sentry/Desktop/boom_ws/build/display -- -j16 -l16
+[0.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/new-sentry/Desktop/boom_ws/build/display': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/new-sentry/Desktop/boom_ws/build/display
+[0.687s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hik_camera_ros2_driver)
+[0.691s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/new-sentry/Desktop/boom_ws/build/hik_camera_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/new-sentry/Desktop/boom_ws/build/hik_camera_ros2_driver
+[0.694s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver' for CMake module files
+[0.695s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver' for CMake config files
+[0.695s] Level 1:colcon.colcon_core.shell:create_environment_hook('hik_camera_ros2_driver', 'cmake_prefix_path')
+[0.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/hik_camera_ros2_driver/hook/cmake_prefix_path.ps1'
+[0.698s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/hik_camera_ros2_driver/hook/cmake_prefix_path.dsv'
+[0.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/hik_camera_ros2_driver/hook/cmake_prefix_path.sh'
+[0.700s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/lib'
+[0.701s] Level 1:colcon.colcon_core.shell:create_environment_hook('hik_camera_ros2_driver', 'ld_library_path_lib')
+[0.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/hik_camera_ros2_driver/hook/ld_library_path_lib.ps1'
+[0.702s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/hik_camera_ros2_driver/hook/ld_library_path_lib.dsv'
+[0.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/hik_camera_ros2_driver/hook/ld_library_path_lib.sh'
+[0.703s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/bin'
+[0.703s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/lib/pkgconfig/hik_camera_ros2_driver.pc'
+[0.703s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/lib/python3.10/site-packages'
+[0.703s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/bin'
+[0.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/hik_camera_ros2_driver/package.ps1'
+[0.705s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/hik_camera_ros2_driver/package.dsv'
+[0.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/hik_camera_ros2_driver/package.sh'
+[0.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/hik_camera_ros2_driver/package.bash'
+[0.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/hik_camera_ros2_driver/package.zsh'
+[0.708s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/colcon-core/packages/hik_camera_ros2_driver)
+[0.709s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hik_camera_ros2_driver)
+[0.709s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver' for CMake module files
+[0.709s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver' for CMake config files
+[0.709s] Level 1:colcon.colcon_core.shell:create_environment_hook('hik_camera_ros2_driver', 'cmake_prefix_path')
+[0.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/hik_camera_ros2_driver/hook/cmake_prefix_path.ps1'
+[0.710s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/hik_camera_ros2_driver/hook/cmake_prefix_path.dsv'
+[0.711s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/hik_camera_ros2_driver/hook/cmake_prefix_path.sh'
+[0.711s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/lib'
+[0.711s] Level 1:colcon.colcon_core.shell:create_environment_hook('hik_camera_ros2_driver', 'ld_library_path_lib')
+[0.711s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/hik_camera_ros2_driver/hook/ld_library_path_lib.ps1'
+[0.712s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/hik_camera_ros2_driver/hook/ld_library_path_lib.dsv'
+[0.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/hik_camera_ros2_driver/hook/ld_library_path_lib.sh'
+[0.712s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/bin'
+[0.712s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/lib/pkgconfig/hik_camera_ros2_driver.pc'
+[0.713s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/lib/python3.10/site-packages'
+[0.713s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/bin'
+[0.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/hik_camera_ros2_driver/package.ps1'
+[0.713s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/hik_camera_ros2_driver/package.dsv'
+[0.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/hik_camera_ros2_driver/package.sh'
+[0.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/hik_camera_ros2_driver/package.bash'
+[0.716s] INFO:colcon.colcon_core.shell:Creating package script '/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/hik_camera_ros2_driver/package.zsh'
+[0.717s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/colcon-core/packages/hik_camera_ros2_driver)
+[0.721s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(display)
+[0.722s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/display' for CMake module files
+[0.725s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/new-sentry/Desktop/boom_ws/build/display' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/new-sentry/Desktop/boom_ws/build/display
+[0.726s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/display' for CMake config files
+[0.726s] Level 1:colcon.colcon_core.shell:create_environment_hook('display', 'cmake_prefix_path')
+[0.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/new-sentry/Desktop/boom_ws/install/display/share/display/hook/cmake_prefix_path.ps1'
+[0.728s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/new-sentry/Desktop/boom_ws/install/display/share/display/hook/cmake_prefix_path.dsv'
+[0.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/new-sentry/Desktop/boom_ws/install/display/share/display/hook/cmake_prefix_path.sh'
+[0.729s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/display/lib'
+[0.730s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/display/bin'
+[0.730s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/display/lib/pkgconfig/display.pc'
+[0.730s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/display/lib/python3.10/site-packages'
+[0.730s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/display/bin'
+[0.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/new-sentry/Desktop/boom_ws/install/display/share/display/package.ps1'
+[0.732s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/new-sentry/Desktop/boom_ws/install/display/share/display/package.dsv'
+[0.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/new-sentry/Desktop/boom_ws/install/display/share/display/package.sh'
+[0.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/new-sentry/Desktop/boom_ws/install/display/share/display/package.bash'
+[0.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/new-sentry/Desktop/boom_ws/install/display/share/display/package.zsh'
+[0.734s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/new-sentry/Desktop/boom_ws/install/display/share/colcon-core/packages/display)
+[0.735s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(display)
+[0.736s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/display' for CMake module files
+[0.736s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/display' for CMake config files
+[0.736s] Level 1:colcon.colcon_core.shell:create_environment_hook('display', 'cmake_prefix_path')
+[0.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/new-sentry/Desktop/boom_ws/install/display/share/display/hook/cmake_prefix_path.ps1'
+[0.738s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/new-sentry/Desktop/boom_ws/install/display/share/display/hook/cmake_prefix_path.dsv'
+[0.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/new-sentry/Desktop/boom_ws/install/display/share/display/hook/cmake_prefix_path.sh'
+[0.739s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/display/lib'
+[0.739s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/display/bin'
+[0.739s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/display/lib/pkgconfig/display.pc'
+[0.739s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/display/lib/python3.10/site-packages'
+[0.740s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/display/bin'
+[0.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/new-sentry/Desktop/boom_ws/install/display/share/display/package.ps1'
+[0.741s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/new-sentry/Desktop/boom_ws/install/display/share/display/package.dsv'
+[0.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/new-sentry/Desktop/boom_ws/install/display/share/display/package.sh'
+[0.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/new-sentry/Desktop/boom_ws/install/display/share/display/package.bash'
+[0.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/new-sentry/Desktop/boom_ws/install/display/share/display/package.zsh'
+[0.743s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/new-sentry/Desktop/boom_ws/install/display/share/colcon-core/packages/display)
+[0.998s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/new-sentry/Desktop/boom_ws/build/vision_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/new-sentry/Desktop/boom_ws/build/vision_interfaces -- -j16 -l16
+[1.002s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/new-sentry/Desktop/boom_ws/build/vision_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/new-sentry/Desktop/boom_ws/build/vision_interfaces
+[1.099s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vision_interfaces)
+[1.100s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/vision_interfaces' for CMake module files
+[1.102s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/new-sentry/Desktop/boom_ws/build/vision_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/new-sentry/Desktop/boom_ws/build/vision_interfaces
+[1.103s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/vision_interfaces' for CMake config files
+[1.103s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision_interfaces', 'cmake_prefix_path')
+[1.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/hook/cmake_prefix_path.ps1'
+[1.105s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/hook/cmake_prefix_path.dsv'
+[1.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/hook/cmake_prefix_path.sh'
+[1.106s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/lib'
+[1.106s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision_interfaces', 'ld_library_path_lib')
+[1.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/hook/ld_library_path_lib.ps1'
+[1.106s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/hook/ld_library_path_lib.dsv'
+[1.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/hook/ld_library_path_lib.sh'
+[1.107s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/bin'
+[1.107s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/lib/pkgconfig/vision_interfaces.pc'
+[1.107s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/lib/python3.10/site-packages'
+[1.107s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/bin'
+[1.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/package.ps1'
+[1.108s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/package.dsv'
+[1.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/package.sh'
+[1.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/package.bash'
+[1.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/package.zsh'
+[1.109s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/colcon-core/packages/vision_interfaces)
+[1.110s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vision_interfaces)
+[1.110s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/vision_interfaces' for CMake module files
+[1.110s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/vision_interfaces' for CMake config files
+[1.110s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision_interfaces', 'cmake_prefix_path')
+[1.111s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/hook/cmake_prefix_path.ps1'
+[1.112s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/hook/cmake_prefix_path.dsv'
+[1.112s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/hook/cmake_prefix_path.sh'
+[1.113s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/lib'
+[1.113s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision_interfaces', 'ld_library_path_lib')
+[1.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/hook/ld_library_path_lib.ps1'
+[1.114s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/hook/ld_library_path_lib.dsv'
+[1.115s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/hook/ld_library_path_lib.sh'
+[1.115s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/bin'
+[1.115s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/lib/pkgconfig/vision_interfaces.pc'
+[1.116s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/lib/python3.10/site-packages'
+[1.116s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/bin'
+[1.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/package.ps1'
+[1.117s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/package.dsv'
+[1.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/package.sh'
+[1.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/package.bash'
+[1.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/package.zsh'
+[1.119s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/colcon-core/packages/vision_interfaces)
+[1.120s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/new-sentry/Desktop/boom_ws/src/resolving' with build type 'ament_cmake'
+[1.121s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/new-sentry/Desktop/boom_ws/src/resolving'
+[1.122s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.122s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.127s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/new-sentry/Desktop/boom_ws/src/serial' with build type 'ament_cmake'
+[1.127s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/new-sentry/Desktop/boom_ws/src/serial'
+[1.127s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.128s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.143s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/new-sentry/Desktop/boom_ws/build/resolve': CMAKE_PREFIX_PATH=/home/new-sentry/Desktop/boom_ws/install/vision_interfaces:/home/new-sentry/Desktop/boom_ws/install/serial:/home/new-sentry/Desktop/boom_ws/install/resolve:/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver:/home/new-sentry/Desktop/boom_ws/install/display:/opt/ros/humble LD_LIBRARY_PATH=/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/local/bin/cmake --build /home/new-sentry/Desktop/boom_ws/build/resolve -- -j16 -l16
+[1.153s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/new-sentry/Desktop/boom_ws/build/serial': CMAKE_PREFIX_PATH=/home/new-sentry/Desktop/boom_ws/install/vision_interfaces:/home/new-sentry/Desktop/boom_ws/install/serial:/home/new-sentry/Desktop/boom_ws/install/resolve:/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver:/home/new-sentry/Desktop/boom_ws/install/display:/opt/ros/humble LD_LIBRARY_PATH=/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/local/bin/cmake --build /home/new-sentry/Desktop/boom_ws/build/serial -- -j16 -l16
+[1.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/new-sentry/Desktop/boom_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=/home/new-sentry/Desktop/boom_ws/install/vision_interfaces:/home/new-sentry/Desktop/boom_ws/install/serial:/home/new-sentry/Desktop/boom_ws/install/resolve:/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver:/home/new-sentry/Desktop/boom_ws/install/display:/opt/ros/humble LD_LIBRARY_PATH=/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/local/bin/cmake --build /home/new-sentry/Desktop/boom_ws/build/serial -- -j16 -l16
+[1.251s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/new-sentry/Desktop/boom_ws/build/serial': CMAKE_PREFIX_PATH=/home/new-sentry/Desktop/boom_ws/install/vision_interfaces:/home/new-sentry/Desktop/boom_ws/install/serial:/home/new-sentry/Desktop/boom_ws/install/resolve:/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver:/home/new-sentry/Desktop/boom_ws/install/display:/opt/ros/humble LD_LIBRARY_PATH=/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/local/bin/cmake --install /home/new-sentry/Desktop/boom_ws/build/serial
+[1.268s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[1.269s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/serial' for CMake module files
+[1.270s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/new-sentry/Desktop/boom_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=/home/new-sentry/Desktop/boom_ws/install/vision_interfaces:/home/new-sentry/Desktop/boom_ws/install/serial:/home/new-sentry/Desktop/boom_ws/install/resolve:/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver:/home/new-sentry/Desktop/boom_ws/install/display:/opt/ros/humble LD_LIBRARY_PATH=/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/local/bin/cmake --install /home/new-sentry/Desktop/boom_ws/build/serial
+[1.271s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/serial' for CMake config files
+[1.272s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[1.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/new-sentry/Desktop/boom_ws/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[1.274s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/new-sentry/Desktop/boom_ws/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[1.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/new-sentry/Desktop/boom_ws/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[1.275s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/serial/lib'
+[1.275s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/serial/bin'
+[1.275s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/serial/lib/pkgconfig/serial.pc'
+[1.275s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/serial/lib/python3.10/site-packages'
+[1.275s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/serial/bin'
+[1.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/new-sentry/Desktop/boom_ws/install/serial/share/serial/package.ps1'
+[1.276s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/new-sentry/Desktop/boom_ws/install/serial/share/serial/package.dsv'
+[1.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/new-sentry/Desktop/boom_ws/install/serial/share/serial/package.sh'
+[1.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/new-sentry/Desktop/boom_ws/install/serial/share/serial/package.bash'
+[1.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/new-sentry/Desktop/boom_ws/install/serial/share/serial/package.zsh'
+[1.277s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/new-sentry/Desktop/boom_ws/install/serial/share/colcon-core/packages/serial)
+[1.277s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[1.277s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/serial' for CMake module files
+[1.277s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/serial' for CMake config files
+[1.277s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[1.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/new-sentry/Desktop/boom_ws/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[1.278s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/new-sentry/Desktop/boom_ws/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[1.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/new-sentry/Desktop/boom_ws/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[1.278s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/serial/lib'
+[1.278s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/serial/bin'
+[1.278s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/serial/lib/pkgconfig/serial.pc'
+[1.278s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/serial/lib/python3.10/site-packages'
+[1.279s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/serial/bin'
+[1.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/new-sentry/Desktop/boom_ws/install/serial/share/serial/package.ps1'
+[1.279s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/new-sentry/Desktop/boom_ws/install/serial/share/serial/package.dsv'
+[1.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/new-sentry/Desktop/boom_ws/install/serial/share/serial/package.sh'
+[1.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/new-sentry/Desktop/boom_ws/install/serial/share/serial/package.bash'
+[1.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/new-sentry/Desktop/boom_ws/install/serial/share/serial/package.zsh'
+[1.280s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/new-sentry/Desktop/boom_ws/install/serial/share/colcon-core/packages/serial)
+[13.147s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/new-sentry/Desktop/boom_ws/build/resolve' returned '0': CMAKE_PREFIX_PATH=/home/new-sentry/Desktop/boom_ws/install/vision_interfaces:/home/new-sentry/Desktop/boom_ws/install/serial:/home/new-sentry/Desktop/boom_ws/install/resolve:/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver:/home/new-sentry/Desktop/boom_ws/install/display:/opt/ros/humble LD_LIBRARY_PATH=/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/local/bin/cmake --build /home/new-sentry/Desktop/boom_ws/build/resolve -- -j16 -l16
+[13.152s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/new-sentry/Desktop/boom_ws/build/resolve': CMAKE_PREFIX_PATH=/home/new-sentry/Desktop/boom_ws/install/vision_interfaces:/home/new-sentry/Desktop/boom_ws/install/serial:/home/new-sentry/Desktop/boom_ws/install/resolve:/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver:/home/new-sentry/Desktop/boom_ws/install/display:/opt/ros/humble LD_LIBRARY_PATH=/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/local/bin/cmake --install /home/new-sentry/Desktop/boom_ws/build/resolve
+[13.170s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(resolve)
+[13.171s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/resolve' for CMake module files
+[13.171s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/new-sentry/Desktop/boom_ws/build/resolve' returned '0': CMAKE_PREFIX_PATH=/home/new-sentry/Desktop/boom_ws/install/vision_interfaces:/home/new-sentry/Desktop/boom_ws/install/serial:/home/new-sentry/Desktop/boom_ws/install/resolve:/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver:/home/new-sentry/Desktop/boom_ws/install/display:/opt/ros/humble LD_LIBRARY_PATH=/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/local/bin/cmake --install /home/new-sentry/Desktop/boom_ws/build/resolve
+[13.172s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/resolve' for CMake config files
+[13.172s] Level 1:colcon.colcon_core.shell:create_environment_hook('resolve', 'cmake_prefix_path')
+[13.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/hook/cmake_prefix_path.ps1'
+[13.173s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/hook/cmake_prefix_path.dsv'
+[13.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/hook/cmake_prefix_path.sh'
+[13.175s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/resolve/lib'
+[13.175s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/resolve/bin'
+[13.175s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/resolve/lib/pkgconfig/resolve.pc'
+[13.175s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/resolve/lib/python3.10/site-packages'
+[13.175s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/resolve/bin'
+[13.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/package.ps1'
+[13.177s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/package.dsv'
+[13.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/package.sh'
+[13.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/package.bash'
+[13.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/package.zsh'
+[13.179s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/new-sentry/Desktop/boom_ws/install/resolve/share/colcon-core/packages/resolve)
+[13.181s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(resolve)
+[13.181s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/resolve' for CMake module files
+[13.181s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/resolve' for CMake config files
+[13.181s] Level 1:colcon.colcon_core.shell:create_environment_hook('resolve', 'cmake_prefix_path')
+[13.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/hook/cmake_prefix_path.ps1'
+[13.182s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/hook/cmake_prefix_path.dsv'
+[13.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/hook/cmake_prefix_path.sh'
+[13.183s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/resolve/lib'
+[13.183s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/resolve/bin'
+[13.183s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/resolve/lib/pkgconfig/resolve.pc'
+[13.184s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/resolve/lib/python3.10/site-packages'
+[13.184s] Level 1:colcon.colcon_core.environment:checking '/home/new-sentry/Desktop/boom_ws/install/resolve/bin'
+[13.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/package.ps1'
+[13.184s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/package.dsv'
+[13.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/package.sh'
+[13.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/package.bash'
+[13.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/package.zsh'
+[13.186s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/new-sentry/Desktop/boom_ws/install/resolve/share/colcon-core/packages/resolve)
+[13.186s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[13.187s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[13.188s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[13.188s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[13.201s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[13.201s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[13.202s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.245s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.247s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/new-sentry/Desktop/boom_ws/install/local_setup.ps1'
+[13.250s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/new-sentry/Desktop/boom_ws/install/_local_setup_util_ps1.py'
+[13.253s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/new-sentry/Desktop/boom_ws/install/setup.ps1'
+[13.254s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/new-sentry/Desktop/boom_ws/install/local_setup.sh'
+[13.255s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/new-sentry/Desktop/boom_ws/install/_local_setup_util_sh.py'
+[13.256s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/new-sentry/Desktop/boom_ws/install/setup.sh'
+[13.259s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/new-sentry/Desktop/boom_ws/install/local_setup.bash'
+[13.260s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/new-sentry/Desktop/boom_ws/install/setup.bash'
+[13.263s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/new-sentry/Desktop/boom_ws/install/local_setup.zsh'
+[13.263s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/new-sentry/Desktop/boom_ws/install/setup.zsh'

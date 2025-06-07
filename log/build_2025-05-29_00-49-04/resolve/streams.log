@@ -1,0 +1,33 @@
+[0.009s] Invoking command in '/home/new-sentry/Desktop/boom_ws/build/resolve': CMAKE_PREFIX_PATH=/home/new-sentry/Desktop/boom_ws/install/vision_interfaces:/home/new-sentry/Desktop/boom_ws/install/serial:/home/new-sentry/Desktop/boom_ws/install/resolve:/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver:/home/new-sentry/Desktop/boom_ws/install/display:/opt/ros/humble LD_LIBRARY_PATH=/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/local/bin/cmake --build /home/new-sentry/Desktop/boom_ws/build/resolve -- -j16 -l16
+[0.070s] [ 50%] [32mBuilding CXX object CMakeFiles/resolve.dir/src/resolve_node.cpp.o[0m
+[4.109s] [01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:[m[K In member function ‘[01m[Kvoid Resolve::Send(std::string, std::string)[m[K’:
+[4.110s] [01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:101:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::__cxx11::basic_string<char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[4.110s]   101 |                 for (int i=0; [01;35m[Ki<center_x.length()[m[K; i++) {
+[4.110s]       |                               [01;35m[K~^~~~~~~~~~~~~~~~~~[m[K
+[4.110s] [01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:107:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::__cxx11::basic_string<char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[4.110s]   107 |                 for (int i=0; [01;35m[Ki<center_y.length()[m[K; i++) {
+[4.110s]       |                               [01;35m[K~^~~~~~~~~~~~~~~~~~[m[K
+[4.119s] [01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:[m[K In function ‘[01m[Kvoid video_capture()[m[K’:
+[4.119s] [01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:207:43:[m[K [01;31m[Kerror: [m[K‘[01m[KCV_FOURCC[m[K’ was not declared in this scope
+[4.119s]   207 |         outputVideo.open(outputVideoPath, [01;31m[KCV_FOURCC[m[K('M','J','P','G'), 10.0, size_, true);
+[4.120s]       |                                           [01;31m[K^~~~~~~~~[m[K
+[4.139s] [01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:[m[K In function ‘[01m[Kvoid ImageResolveCallback(const ConstSharedPtr&)[m[K’:
+[4.139s] [01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:286:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[4.139s]   286 |                 for (int i=0;[01;35m[Ki<contours.size()[m[K; i++) {
+[4.139s]       |                              [01;35m[K~^~~~~~~~~~~~~~~~[m[K
+[4.139s] [01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:301:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[4.139s]   301 |         for(int i = 0; [01;35m[Ki < area_vec.size()[m[K; i++) {
+[4.139s]       |                        [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[4.141s] [01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:256:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.142s]   256 |         double [01;35m[Karea[m[K;
+[4.142s]       |                [01;35m[K^~~~[m[K
+[4.142s] [01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:263:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kimg_area[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.142s]   263 |         float [01;35m[Kimg_area[m[K = 1440*1080;
+[4.142s]       |               [01;35m[K^~~~~~~~[m[K
+[4.142s] [01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:269:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktext_cnt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.142s]   269 |         int [01;35m[Ktext_cnt[m[K = 0;
+[4.142s]       |             [01;35m[K^~~~~~~~[m[K
+[5.832s] gmake[2]: *** [CMakeFiles/resolve.dir/build.make:79：CMakeFiles/resolve.dir/src/resolve_node.cpp.o] 错误 1
+[5.832s] gmake[1]: *** [CMakeFiles/Makefile2:153：CMakeFiles/resolve.dir/all] 错误 2
+[5.832s] gmake: *** [Makefile:146：all] 错误 2
+[5.836s] Invoked command in '/home/new-sentry/Desktop/boom_ws/build/resolve' returned '2': CMAKE_PREFIX_PATH=/home/new-sentry/Desktop/boom_ws/install/vision_interfaces:/home/new-sentry/Desktop/boom_ws/install/serial:/home/new-sentry/Desktop/boom_ws/install/resolve:/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver:/home/new-sentry/Desktop/boom_ws/install/display:/opt/ros/humble LD_LIBRARY_PATH=/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/local/bin/cmake --build /home/new-sentry/Desktop/boom_ws/build/resolve -- -j16 -l16

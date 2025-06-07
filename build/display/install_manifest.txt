@@ -1,0 +1,16 @@
+/home/new-sentry/Desktop/boom_ws/install/display/lib/display/display
+/home/new-sentry/Desktop/boom_ws/install/display/share/ament_index/resource_index/package_run_dependencies/display
+/home/new-sentry/Desktop/boom_ws/install/display/share/ament_index/resource_index/parent_prefix_path/display
+/home/new-sentry/Desktop/boom_ws/install/display/share/display/environment/ament_prefix_path.sh
+/home/new-sentry/Desktop/boom_ws/install/display/share/display/environment/ament_prefix_path.dsv
+/home/new-sentry/Desktop/boom_ws/install/display/share/display/environment/path.sh
+/home/new-sentry/Desktop/boom_ws/install/display/share/display/environment/path.dsv
+/home/new-sentry/Desktop/boom_ws/install/display/share/display/local_setup.bash
+/home/new-sentry/Desktop/boom_ws/install/display/share/display/local_setup.sh
+/home/new-sentry/Desktop/boom_ws/install/display/share/display/local_setup.zsh
+/home/new-sentry/Desktop/boom_ws/install/display/share/display/local_setup.dsv
+/home/new-sentry/Desktop/boom_ws/install/display/share/display/package.dsv
+/home/new-sentry/Desktop/boom_ws/install/display/share/ament_index/resource_index/packages/display
+/home/new-sentry/Desktop/boom_ws/install/display/share/display/cmake/displayConfig.cmake
+/home/new-sentry/Desktop/boom_ws/install/display/share/display/cmake/displayConfig-version.cmake
+/home/new-sentry/Desktop/boom_ws/install/display/share/display/package.xml

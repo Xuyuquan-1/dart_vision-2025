@@ -1,0 +1,185 @@
+[0.000000] (-) TimerEvent: {}
+[0.000558] (-) JobUnselected: {'identifier': 'display'}
+[0.000838] (-) JobUnselected: {'identifier': 'hik_camera_ros2_driver'}
+[0.000867] (-) JobUnselected: {'identifier': 'resolve'}
+[0.000888] (-) JobUnselected: {'identifier': 'vision_interfaces'}
+[0.000911] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict([('vision_interfaces', '/home/qiqi/Desktop/boom_ws/install/vision_interfaces')])}
+[0.000941] (serial) JobStarted: {'identifier': 'serial'}
+[0.014228] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[0.014797] (serial) JobProgress: {'identifier': 'serial', 'progress': 'build'}
+[0.015836] (serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/qiqi/Desktop/boom_ws/build/serial', '--', '-j8', '-l8'], 'cwd': '/home/qiqi/Desktop/boom_ws/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'qiqi'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'wayland'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/qiqi/Desktop/boom_ws/install/vision_interfaces/lib:/usr/local/lib:/home/qiqi/Desktop/boom_ws/install/hik_camera_ros2_driver/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32'), ('HOME', '/home/qiqi'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1192'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ca315f2c2c63e230a56f8b1f6825bcfd'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7897/'), ('COLCON_PREFIX_PATH', '/home/qiqi/Desktop/boom_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'qiqi'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'qiqi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/qiqi-Default-string:@/tmp/.ICE-unix/1192,unix/qiqi-Default-string:/tmp/.ICE-unix/1192'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/66d5b7cd_b0b2_4b1d_b0ad_dba61ecb0b76'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YA3J62'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.132'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/qiqi/Desktop/boom_ws/install/serial:/home/qiqi/Desktop/boom_ws/install/resolve:/home/qiqi/Desktop/boom_ws/install/vision_interfaces:/home/qiqi/Desktop/boom_ws/install/hik_camera_ros2_driver:/home/qiqi/Desktop/boom_ws/install/display:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/qiqi/Desktop/boom_ws/build/serial'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ca315f2c2c63e230a56f8b1f6825bcfd'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/qiqi/Desktop/boom_ws/install/vision_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/qiqi/Desktop/boom_ws/install/vision_interfaces:/home/qiqi/Desktop/boom_ws/install/serial:/home/qiqi/Desktop/boom_ws/install/resolve:/home/qiqi/Desktop/boom_ws/install/hik_camera_ros2_driver:/home/qiqi/Desktop/boom_ws/install/display:/opt/ros/humble'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib')]), 'shell': False}
+[0.091268] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serial\x1b[0m\n'}
+[0.099762] (-) TimerEvent: {}
+[0.132187] (serial) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cpp.o\x1b[0m\n'}
+[0.199900] (-) TimerEvent: {}
+[0.300360] (-) TimerEvent: {}
+[0.400712] (-) TimerEvent: {}
+[0.501028] (-) TimerEvent: {}
+[0.601341] (-) TimerEvent: {}
+[0.701647] (-) TimerEvent: {}
+[0.801964] (-) TimerEvent: {}
+[0.902216] (-) TimerEvent: {}
+[1.002555] (-) TimerEvent: {}
+[1.102869] (-) TimerEvent: {}
+[1.203208] (-) TimerEvent: {}
+[1.303558] (-) TimerEvent: {}
+[1.403867] (-) TimerEvent: {}
+[1.504181] (-) TimerEvent: {}
+[1.604533] (-) TimerEvent: {}
+[1.704882] (-) TimerEvent: {}
+[1.805179] (-) TimerEvent: {}
+[1.905486] (-) TimerEvent: {}
+[2.005841] (-) TimerEvent: {}
+[2.106281] (-) TimerEvent: {}
+[2.206604] (-) TimerEvent: {}
+[2.306966] (-) TimerEvent: {}
+[2.407275] (-) TimerEvent: {}
+[2.507578] (-) TimerEvent: {}
+[2.607879] (-) TimerEvent: {}
+[2.708203] (-) TimerEvent: {}
+[2.808508] (-) TimerEvent: {}
+[2.908954] (-) TimerEvent: {}
+[3.009313] (-) TimerEvent: {}
+[3.109679] (-) TimerEvent: {}
+[3.210219] (-) TimerEvent: {}
+[3.310768] (-) TimerEvent: {}
+[3.411158] (-) TimerEvent: {}
+[3.511524] (-) TimerEvent: {}
+[3.611872] (-) TimerEvent: {}
+[3.712281] (-) TimerEvent: {}
+[3.812697] (-) TimerEvent: {}
+[3.913075] (-) TimerEvent: {}
+[4.013569] (-) TimerEvent: {}
+[4.114031] (-) TimerEvent: {}
+[4.214366] (-) TimerEvent: {}
+[4.314699] (-) TimerEvent: {}
+[4.415019] (-) TimerEvent: {}
+[4.515311] (-) TimerEvent: {}
+[4.615648] (-) TimerEvent: {}
+[4.716009] (-) TimerEvent: {}
+[4.790502] (serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qiqi/Desktop/boom_ws/src/serial/src/serial.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KSerialNode::SerialNode(const char*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.790745] (serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qiqi/Desktop/boom_ws/src/serial/src/serial.cpp:36:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kname\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.790849] (serial) StderrLine: {'line': b'   36 |         SerialNode(\x1b[01;35m\x1b[Kconst char* name\x1b[m\x1b[K): Node("serial_port_node") {\n'}
+[4.790936] (serial) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[4.795626] (serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qiqi/Desktop/boom_ws/src/serial/src/serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SerialNode::callback(vision_interfaces::msg::Uartf_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.795809] (serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qiqi/Desktop/boom_ws/src/serial/src/serial.cpp:103:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.795896] (serial) StderrLine: {'line': b'  103 |                 for (int i = 0; \x1b[01;35m\x1b[Ki < sizeof(Package) - 1\x1b[m\x1b[K; i ++) {\n'}
+[4.795970] (serial) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.816127] (-) TimerEvent: {}
+[4.916456] (-) TimerEvent: {}
+[5.016785] (-) TimerEvent: {}
+[5.117088] (-) TimerEvent: {}
+[5.217467] (-) TimerEvent: {}
+[5.317898] (-) TimerEvent: {}
+[5.418323] (-) TimerEvent: {}
+[5.518718] (-) TimerEvent: {}
+[5.619076] (-) TimerEvent: {}
+[5.719501] (-) TimerEvent: {}
+[5.819863] (-) TimerEvent: {}
+[5.920483] (-) TimerEvent: {}
+[6.020848] (-) TimerEvent: {}
+[6.121194] (-) TimerEvent: {}
+[6.221591] (-) TimerEvent: {}
+[6.322042] (-) TimerEvent: {}
+[6.422414] (-) TimerEvent: {}
+[6.522759] (-) TimerEvent: {}
+[6.623075] (-) TimerEvent: {}
+[6.723375] (-) TimerEvent: {}
+[6.823701] (-) TimerEvent: {}
+[6.924037] (-) TimerEvent: {}
+[7.024328] (-) TimerEvent: {}
+[7.124627] (-) TimerEvent: {}
+[7.224972] (-) TimerEvent: {}
+[7.325391] (-) TimerEvent: {}
+[7.425774] (-) TimerEvent: {}
+[7.526121] (-) TimerEvent: {}
+[7.626430] (-) TimerEvent: {}
+[7.726799] (-) TimerEvent: {}
+[7.827205] (-) TimerEvent: {}
+[7.927566] (-) TimerEvent: {}
+[8.027898] (-) TimerEvent: {}
+[8.128241] (-) TimerEvent: {}
+[8.228644] (-) TimerEvent: {}
+[8.328951] (-) TimerEvent: {}
+[8.429241] (-) TimerEvent: {}
+[8.529562] (-) TimerEvent: {}
+[8.629866] (-) TimerEvent: {}
+[8.730197] (-) TimerEvent: {}
+[8.830588] (-) TimerEvent: {}
+[8.931015] (-) TimerEvent: {}
+[9.031471] (-) TimerEvent: {}
+[9.131821] (-) TimerEvent: {}
+[9.232163] (-) TimerEvent: {}
+[9.332663] (-) TimerEvent: {}
+[9.432966] (-) TimerEvent: {}
+[9.533267] (-) TimerEvent: {}
+[9.633577] (-) TimerEvent: {}
+[9.733885] (-) TimerEvent: {}
+[9.834226] (-) TimerEvent: {}
+[9.934595] (-) TimerEvent: {}
+[10.035112] (-) TimerEvent: {}
+[10.135583] (-) TimerEvent: {}
+[10.236026] (-) TimerEvent: {}
+[10.336384] (-) TimerEvent: {}
+[10.436716] (-) TimerEvent: {}
+[10.537041] (-) TimerEvent: {}
+[10.637637] (-) TimerEvent: {}
+[10.737927] (-) TimerEvent: {}
+[10.838237] (-) TimerEvent: {}
+[10.938741] (-) TimerEvent: {}
+[11.039040] (-) TimerEvent: {}
+[11.139376] (-) TimerEvent: {}
+[11.239721] (-) TimerEvent: {}
+[11.340195] (-) TimerEvent: {}
+[11.440590] (-) TimerEvent: {}
+[11.541017] (-) TimerEvent: {}
+[11.641301] (-) TimerEvent: {}
+[11.741612] (-) TimerEvent: {}
+[11.842000] (-) TimerEvent: {}
+[11.942430] (-) TimerEvent: {}
+[12.042811] (-) TimerEvent: {}
+[12.143216] (-) TimerEvent: {}
+[12.243623] (-) TimerEvent: {}
+[12.344121] (-) TimerEvent: {}
+[12.444412] (-) TimerEvent: {}
+[12.544774] (-) TimerEvent: {}
+[12.645609] (-) TimerEvent: {}
+[12.746042] (-) TimerEvent: {}
+[12.846429] (-) TimerEvent: {}
+[12.946828] (-) TimerEvent: {}
+[13.047207] (-) TimerEvent: {}
+[13.147761] (-) TimerEvent: {}
+[13.248194] (-) TimerEvent: {}
+[13.308671] (serial) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable serial\x1b[0m\n'}
+[13.348305] (-) TimerEvent: {}
+[13.448567] (-) TimerEvent: {}
+[13.548914] (-) TimerEvent: {}
+[13.649279] (-) TimerEvent: {}
+[13.749713] (-) TimerEvent: {}
+[13.850095] (-) TimerEvent: {}
+[13.932607] (serial) StdoutLine: {'line': b'[100%] Built target serial\n'}
+[13.946065] (serial) CommandEnded: {'returncode': 0}
+[13.947002] (serial) JobProgress: {'identifier': 'serial', 'progress': 'install'}
+[13.950197] (-) TimerEvent: {}
+[13.960012] (serial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/qiqi/Desktop/boom_ws/build/serial'], 'cwd': '/home/qiqi/Desktop/boom_ws/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'qiqi'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'wayland'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/qiqi/Desktop/boom_ws/install/vision_interfaces/lib:/usr/local/lib:/home/qiqi/Desktop/boom_ws/install/hik_camera_ros2_driver/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32'), ('HOME', '/home/qiqi'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1192'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ca315f2c2c63e230a56f8b1f6825bcfd'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7897/'), ('COLCON_PREFIX_PATH', '/home/qiqi/Desktop/boom_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'qiqi'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'qiqi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/qiqi-Default-string:@/tmp/.ICE-unix/1192,unix/qiqi-Default-string:/tmp/.ICE-unix/1192'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/66d5b7cd_b0b2_4b1d_b0ad_dba61ecb0b76'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YA3J62'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.132'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/qiqi/Desktop/boom_ws/install/serial:/home/qiqi/Desktop/boom_ws/install/resolve:/home/qiqi/Desktop/boom_ws/install/vision_interfaces:/home/qiqi/Desktop/boom_ws/install/hik_camera_ros2_driver:/home/qiqi/Desktop/boom_ws/install/display:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/qiqi/Desktop/boom_ws/build/serial'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ca315f2c2c63e230a56f8b1f6825bcfd'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/qiqi/Desktop/boom_ws/install/vision_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/qiqi/Desktop/boom_ws/install/vision_interfaces:/home/qiqi/Desktop/boom_ws/install/serial:/home/qiqi/Desktop/boom_ws/install/resolve:/home/qiqi/Desktop/boom_ws/install/hik_camera_ros2_driver:/home/qiqi/Desktop/boom_ws/install/display:/opt/ros/humble'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib')]), 'shell': False}
+[13.971272] (serial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.971688] (serial) StdoutLine: {'line': b'-- Installing: /home/qiqi/Desktop/boom_ws/install/serial/lib/serial/serial\n'}
+[13.977786] (serial) StdoutLine: {'line': b'-- Set runtime path of "/home/qiqi/Desktop/boom_ws/install/serial/lib/serial/serial" to ""\n'}
+[13.978277] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/qiqi/Desktop/boom_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial\n'}
+[13.978828] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/qiqi/Desktop/boom_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial\n'}
+[13.979059] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/qiqi/Desktop/boom_ws/install/serial/share/serial/environment/ament_prefix_path.sh\n'}
+[13.979279] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/qiqi/Desktop/boom_ws/install/serial/share/serial/environment/ament_prefix_path.dsv\n'}
+[13.979460] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/qiqi/Desktop/boom_ws/install/serial/share/serial/environment/path.sh\n'}
+[13.979629] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/qiqi/Desktop/boom_ws/install/serial/share/serial/environment/path.dsv\n'}
+[13.979771] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/qiqi/Desktop/boom_ws/install/serial/share/serial/local_setup.bash\n'}
+[13.979906] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/qiqi/Desktop/boom_ws/install/serial/share/serial/local_setup.sh\n'}
+[13.980033] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/qiqi/Desktop/boom_ws/install/serial/share/serial/local_setup.zsh\n'}
+[13.980171] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/qiqi/Desktop/boom_ws/install/serial/share/serial/local_setup.dsv\n'}
+[13.980320] (serial) StdoutLine: {'line': b'-- Installing: /home/qiqi/Desktop/boom_ws/install/serial/share/serial/package.dsv\n'}
+[13.980482] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/qiqi/Desktop/boom_ws/install/serial/share/ament_index/resource_index/packages/serial\n'}
+[13.980658] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/qiqi/Desktop/boom_ws/install/serial/share/serial/cmake/serialConfig.cmake\n'}
+[13.980811] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/qiqi/Desktop/boom_ws/install/serial/share/serial/cmake/serialConfig-version.cmake\n'}
+[13.980961] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/qiqi/Desktop/boom_ws/install/serial/share/serial/package.xml\n'}
+[13.982332] (serial) CommandEnded: {'returncode': 0}
+[14.016415] (serial) JobEnded: {'identifier': 'serial', 'rc': 0}
+[14.018686] (-) EventReactorShutdown: {}

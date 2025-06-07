@@ -1,0 +1,10 @@
+/home/new-sentry/Desktop/boom_ws/build/display/CMakeFiles/uninstall.dir
+/home/new-sentry/Desktop/boom_ws/build/display/CMakeFiles/display_uninstall.dir
+/home/new-sentry/Desktop/boom_ws/build/display/CMakeFiles/display.dir
+/home/new-sentry/Desktop/boom_ws/build/display/CMakeFiles/test.dir
+/home/new-sentry/Desktop/boom_ws/build/display/CMakeFiles/edit_cache.dir
+/home/new-sentry/Desktop/boom_ws/build/display/CMakeFiles/rebuild_cache.dir
+/home/new-sentry/Desktop/boom_ws/build/display/CMakeFiles/list_install_components.dir
+/home/new-sentry/Desktop/boom_ws/build/display/CMakeFiles/install.dir
+/home/new-sentry/Desktop/boom_ws/build/display/CMakeFiles/install/local.dir
+/home/new-sentry/Desktop/boom_ws/build/display/CMakeFiles/install/strip.dir

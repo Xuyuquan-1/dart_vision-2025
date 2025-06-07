@@ -1,0 +1,78 @@
+[35m[1mConsolidate compiler generated dependencies of target resolve[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/resolve.dir/src/resolve_node.cpp.o[0m
+[01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:[m[K In member function ‘[01m[Kvoid Resolve::Send(std::string, std::string)[m[K’:
+[01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:71:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::__cxx11::basic_string<char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   71 |                 for (int i=0; [01;35m[Ki<center_x.length()[m[K; i++) {
+      |                               [01;35m[K~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:77:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::__cxx11::basic_string<char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   77 |                 for (int i=0; [01;35m[Ki<center_y.length()[m[K; i++) {
+      |                               [01;35m[K~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:[m[K In member function ‘[01m[Kvoid Resolve::ImageResolveCallback(const ConstSharedPtr&)[m[K’:
+[01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:127:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  127 |                 for (int i=0;[01;35m[Ki<contours.size()[m[K; i++) {
+      |                              [01;35m[K~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:180:55:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kimage_transport::ImageTransport::subscribe(const char [14], int, std::_Bind_helper<false, void (Resolve::*)(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&), std::shared_ptr<rclcpp::Node>&, const std::_Placeholder<1>&>::type)[m[K’
+  180 | e_transport::Subscriber sub = [01;31m[Kit.subscribe("/camera/image",10, std::bind(&Resolve::ImageResolveCallback, node, std::placeholders::_1))[m[K;
+      |                               [01;31m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+In file included from [01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:9[m[K:
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:188:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> image_transport::Subscriber image_transport::ImageTransport::subscribe(const string&, uint32_t, void (T::*)(const ImageConstPtr&), T*, const image_transport::TransportHints*)[m[K’
+  188 |   Subscriber [01;36m[Ksubscribe[m[K(
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:188:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:180:55:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (T::*)(const ImageConstPtr&)[m[K’ and ‘[01m[Kstd::_Bind<void (Resolve::*(std::shared_ptr<rclcpp::Node>, std::_Placeholder<1>))(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&)>[m[K’
+  180 | e_transport::Subscriber sub = [01;36m[Kit.subscribe("/camera/image",10, std::bind(&Resolve::ImageResolveCallback, node, std::placeholders::_1))[m[K;
+      |                               [01;36m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+In file included from [01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:9[m[K:
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:202:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> image_transport::Subscriber image_transport::ImageTransport::subscribe(const string&, uint32_t, void (T::*)(const ImageConstPtr&), T*, const image_transport::TransportHints*, rclcpp::SubscriptionOptions)[m[K’
+  202 |   Subscriber [01;36m[Ksubscribe[m[K(
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:202:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:180:55:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (T::*)(const ImageConstPtr&)[m[K’ and ‘[01m[Kstd::_Bind<void (Resolve::*(std::shared_ptr<rclcpp::Node>, std::_Placeholder<1>))(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&)>[m[K’
+  180 | e_transport::Subscriber sub = [01;36m[Kit.subscribe("/camera/image",10, std::bind(&Resolve::ImageResolveCallback, node, std::placeholders::_1))[m[K;
+      |                               [01;36m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+In file included from [01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:9[m[K:
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:217:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> image_transport::Subscriber image_transport::ImageTransport::subscribe(const string&, uint32_t, void (T::*)(const ImageConstPtr&), const std::shared_ptr<_Tp>&, const image_transport::TransportHints*)[m[K’
+  217 |   Subscriber [01;36m[Ksubscribe[m[K(
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:217:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:180:55:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (T::*)(const ImageConstPtr&)[m[K’ and ‘[01m[Kstd::_Bind<void (Resolve::*(std::shared_ptr<rclcpp::Node>, std::_Placeholder<1>))(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&)>[m[K’
+  180 | e_transport::Subscriber sub = [01;36m[Kit.subscribe("/camera/image",10, std::bind(&Resolve::ImageResolveCallback, node, std::placeholders::_1))[m[K;
+      |                               [01;36m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+In file included from [01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:9[m[K:
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:232:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> image_transport::Subscriber image_transport::ImageTransport::subscribe(const string&, uint32_t, void (T::*)(const ImageConstPtr&), const std::shared_ptr<_Tp>&, const image_transport::TransportHints*, rclcpp::SubscriptionOptions)[m[K’
+  232 |   Subscriber [01;36m[Ksubscribe[m[K(
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:232:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:180:55:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (T::*)(const ImageConstPtr&)[m[K’ and ‘[01m[Kstd::_Bind<void (Resolve::*(std::shared_ptr<rclcpp::Node>, std::_Placeholder<1>))(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&)>[m[K’
+  180 | e_transport::Subscriber sub = [01;36m[Kit.subscribe("/camera/image",10, std::bind(&Resolve::ImageResolveCallback, node, std::placeholders::_1))[m[K;
+      |                               [01;36m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+In file included from [01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:9[m[K:
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:136:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::Subscriber image_transport::ImageTransport::subscribe(const string&, uint32_t, const Callback&, const VoidPtr&, const image_transport::TransportHints*)[m[K’
+  136 |   Subscriber [01;36m[Ksubscribe[m[K(
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:138:34:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Kstd::_Bind_helper<false, void (Resolve::*)(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&), std::shared_ptr<rclcpp::Node>&, const std::_Placeholder<1>&>::type[m[K’ to ‘[01m[Kconst Callback&[m[K’ {aka ‘[01m[Kconst std::function<void(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&)>&[m[K’}
+  138 |     [01;36m[Kconst Subscriber::Callback & callback[m[K,
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:146:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::Subscriber image_transport::ImageTransport::subscribe(const string&, uint32_t, const Callback&, const VoidPtr&, const image_transport::TransportHints*, rclcpp::SubscriptionOptions)[m[K’
+  146 |   Subscriber [01;36m[Ksubscribe[m[K(
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:146:14:[m[K [01;36m[Knote: [m[K  candidate expects 6 arguments, 3 provided
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:157:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::Subscriber image_transport::ImageTransport::subscribe(const string&, uint32_t, void (*)(const ImageConstPtr&), const image_transport::TransportHints*)[m[K’
+  157 |   Subscriber [01;36m[Ksubscribe[m[K(
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:159:13:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Kstd::_Bind_helper<false, void (Resolve::*)(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&), std::shared_ptr<rclcpp::Node>&, const std::_Placeholder<1>&>::type[m[K’ to ‘[01m[Kvoid (*)(const ImageConstPtr&)[m[K’ {aka ‘[01m[Kvoid (*)(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&)[m[K’}
+  159 |     [01;36m[Kvoid (* fp)(const ImageConstPtr &)[m[K,
+      |     [01;36m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:172:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::Subscriber image_transport::ImageTransport::subscribe(const string&, uint32_t, void (*)(const ImageConstPtr&), const image_transport::TransportHints*, rclcpp::SubscriptionOptions)[m[K’
+  172 |   Subscriber [01;36m[Ksubscribe[m[K(
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:172:14:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 3 provided
+gmake[2]: *** [CMakeFiles/resolve.dir/build.make:76：CMakeFiles/resolve.dir/src/resolve_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/resolve.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

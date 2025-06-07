@@ -1,0 +1,120 @@
+[0.000000] (-) TimerEvent: {}
+[0.000359] (-) JobUnselected: {'identifier': 'display'}
+[0.000526] (-) JobUnselected: {'identifier': 'hik_camera_ros2_driver'}
+[0.000626] (-) JobUnselected: {'identifier': 'resolve'}
+[0.000651] (-) JobUnselected: {'identifier': 'vision_interfaces'}
+[0.000720] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict([('vision_interfaces', '/home/xyq/Desktop/boom_ws/install/vision_interfaces')])}
+[0.000758] (serial) JobStarted: {'identifier': 'serial'}
+[0.013495] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[0.014467] (serial) JobProgress: {'identifier': 'serial', 'progress': 'build'}
+[0.015139] (serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/xyq/Desktop/boom_ws/build/serial', '--', '-j20', '-l20'], 'cwd': '/home/xyq/Desktop/boom_ws/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LIBRARY_PATH', '/home/xyq/env/TensorRT-10.5.0.18.Linux.x86_64-gnu.cuda-12.6/TensorRT-10.5.0.18/lib/nvonnxparser:/home/xyq/env/TensorRT-10.5.0.18.Linux.x86_64-gnu.cuda-12.6/TensorRT-10.5.0.18/lib/nvonnxparser:'), ('MY_PATH', '/home/xyq/.local/bin:/home/xyq/.local/lib/python3.10/site-packages:/home/xyq/.nvm/versions/node/v20.18.1/bin:/opt/ros/humble/bin:/tmp/.mount_cursoru3Lnor:/tmp/.mount_cursoru3Lnor/usr/sbin:/home/xyq/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/xyq/.local/share/JetBrains/Toolbox/scripts:/opt/Typora-linux-x64:/usr/include/c++/11/:/home/xyq/.local/share/JetBrains/Toolbox/scripts:/home/xyq'), ('USER', 'xyq'), ('LANGUAGE', 'zh_CN:zh'), ('XDG_SESSION_TYPE', 'x11'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('GIT_ASKPASS', '/tmp/.mount_cursorwPau3K/resources/app/extensions/git/dist/askpass.sh'), ('ROS_PACKAGE_PATH', '/opt/ros/humble/share'), ('LD_LIBRARY_PATH', '/home/xyq/Desktop/boom_ws/install/vision_interfaces/lib:/home/xyq/env/TensorRT-10.5.0.18.Linux.x86_64-gnu.cuda-12.6/TensorRT-10.5.0.18/lib/nvonnxparser:/home/xyq/env/TensorRT-10.5.0.18.Linux.x86_64-gnu.cuda-12.6/TensorRT-10.5.0.18/lib:/home/xyq/Desktop/boom_ws/install/hik_camera_ros2_driver/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/xyq/env/TensorRT-10.5.0.18.Linux.x86_64-gnu.cuda-12.6/TensorRT-10.5.0.18/lib/nvonnxparser:/home/xyq/env/TensorRT-10.5.0.18.Linux.x86_64-gnu.cuda-12.6/TensorRT-10.5.0.18/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/tmp/.mount_cursoru3Lnor/usr/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32'), ('SHLVL', '2'), ('HOME', '/home/xyq'), ('APPDIR', '/tmp/.mount_cursoru3Lnor'), ('CHROME_DESKTOP', 'cursor-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '0.45.14'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/xyq/.nvm/versions/node/v20.18.1/bin'), ('NVM_INC', '/home/xyq/.nvm/versions/node/v20.18.1/include/node'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('VSCODE_GIT_ASKPASS_MAIN', '/tmp/.mount_cursorwPau3K/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/tmp/.mount_cursorwPau3K/cursor'), ('MANAGERPID', '2039'), ('SYSTEMD_EXEC_PID', '2376'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e3a7004d26978ef019260a1668016e49'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6182'), ('NVM_DIR', '/home/xyq/.nvm'), ('OMF_PATH', '/home/xyq/.local/share/omf'), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('COLCON_PREFIX_PATH', '/home/xyq/Desktop/boom_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'xyq'), ('OWD', '/home/xyq/Downloads'), ('JOURNAL_STREAM', '8:16903'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'xyq'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/home/xyq/.local/bin:/home/xyq/.local/lib/python3.10/site-packages:/home/xyq/.nvm/versions/node/v20.18.1/bin:/opt/ros/humble/bin:/tmp/.mount_cursoru3Lnor:/tmp/.mount_cursoru3Lnor/usr/sbin:/home/xyq/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/xyq/.local/share/JetBrains/Toolbox/scripts:/opt/Typora-linux-x64:/usr/include/c++/11/:/home/xyq/.local/share/JetBrains/Toolbox/scripts:/opt/Typora-linux-x64:/usr/include/c++/11/'), ('INVOCATION_ID', '4342fae0d4424d0eb28cc00db198e6f1'), ('APPIMAGE', '/home/xyq/Downloads/cursor-0.45.14-build-250219jnihavxsz-x86_64.AppImage'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('SESSION_MANAGER', 'local/xyq-Legion-Y7000P-IRH8:@/tmp/.ICE-unix/2376,unix/xyq-Legion-Y7000P-IRH8:/tmp/.ICE-unix/2376'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LANG', 'zh_CN.UTF-8'), ('VSCODE_INJECTION', '1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('CURSOR_TRACE_ID', '7dc27114cbd34b8fa02e977fc69f2886'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a2c3640f6d.sock'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('TERM_PROGRAM', 'vscode'), ('XMODIFIERS', '@im=ibus'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('GSETTINGS_SCHEMA_DIR', '/tmp/.mount_cursoru3Lnor/usr/share/glib-2.0/schemas:'), ('VSCODE_STABLE', '1'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xyq/Desktop/boom_ws/install/serial:/home/xyq/Desktop/boom_ws/install/resolve:/home/xyq/Desktop/boom_ws/install/vision_interfaces:/home/xyq/Desktop/boom_ws/install/hik_camera_ros2_driver:/home/xyq/Desktop/boom_ws/install/display:/opt/ros/humble'), ('ARGV0', '/home/xyq/Downloads/cursor-0.45.14-build-250219jnihavxsz-x86_64.AppImage'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('VSCODE_NONCE', 'f5b8ad04-2d43-4e0e-89b5-a62f139c0a5f'), ('PWD', '/home/xyq/Desktop/boom_ws/build/serial'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e3a7004d26978ef019260a1668016e49'), ('NVM_CD_FLAGS', ''), ('OMF_CONFIG', '/home/xyq/.config/omf'), ('XDG_DATA_DIRS', '/tmp/.mount_cursoru3Lnor/usr/share/:./share/:/usr/share/gnome:/usr/local/share/:/usr/share/:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/usr/share/gnome/:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/home/xyq/Desktop/boom_ws/install/vision_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/xyq/Desktop/boom_ws/install/vision_interfaces:/home/xyq/Desktop/boom_ws/install/serial:/home/xyq/Desktop/boom_ws/install/resolve:/home/xyq/Desktop/boom_ws/install/hik_camera_ros2_driver:/home/xyq/Desktop/boom_ws/install/display:/opt/ros/humble'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib')]), 'shell': False}
+[0.052047] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serial\x1b[0m\n'}
+[0.067462] (serial) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cpp.o\x1b[0m\n'}
+[0.099880] (-) TimerEvent: {}
+[0.200220] (-) TimerEvent: {}
+[0.300495] (-) TimerEvent: {}
+[0.400877] (-) TimerEvent: {}
+[0.501171] (-) TimerEvent: {}
+[0.601469] (-) TimerEvent: {}
+[0.701813] (-) TimerEvent: {}
+[0.802076] (-) TimerEvent: {}
+[0.902378] (-) TimerEvent: {}
+[1.002722] (-) TimerEvent: {}
+[1.103143] (-) TimerEvent: {}
+[1.203659] (-) TimerEvent: {}
+[1.304249] (-) TimerEvent: {}
+[1.404759] (-) TimerEvent: {}
+[1.505188] (-) TimerEvent: {}
+[1.605612] (-) TimerEvent: {}
+[1.706068] (-) TimerEvent: {}
+[1.806494] (-) TimerEvent: {}
+[1.907100] (-) TimerEvent: {}
+[2.007640] (-) TimerEvent: {}
+[2.107989] (-) TimerEvent: {}
+[2.208381] (-) TimerEvent: {}
+[2.308937] (-) TimerEvent: {}
+[2.409268] (-) TimerEvent: {}
+[2.509605] (-) TimerEvent: {}
+[2.610055] (-) TimerEvent: {}
+[2.710448] (-) TimerEvent: {}
+[2.810715] (-) TimerEvent: {}
+[2.870295] (serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xyq/Desktop/boom_ws/src/serial/src/serial.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KSerialNode::SerialNode(const char*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.870462] (serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xyq/Desktop/boom_ws/src/serial/src/serial.cpp:37:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kname\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.870509] (serial) StderrLine: {'line': b'   37 |         SerialNode(\x1b[01;35m\x1b[Kconst char* name\x1b[m\x1b[K): Node("serial_port_node") {\n'}
+[2.870545] (serial) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.910891] (-) TimerEvent: {}
+[3.011295] (-) TimerEvent: {}
+[3.111542] (-) TimerEvent: {}
+[3.211793] (-) TimerEvent: {}
+[3.312120] (-) TimerEvent: {}
+[3.412647] (-) TimerEvent: {}
+[3.512931] (-) TimerEvent: {}
+[3.613248] (-) TimerEvent: {}
+[3.713629] (-) TimerEvent: {}
+[3.814085] (-) TimerEvent: {}
+[3.914555] (-) TimerEvent: {}
+[4.014866] (-) TimerEvent: {}
+[4.115252] (-) TimerEvent: {}
+[4.215630] (-) TimerEvent: {}
+[4.315947] (-) TimerEvent: {}
+[4.416263] (-) TimerEvent: {}
+[4.516634] (-) TimerEvent: {}
+[4.617056] (-) TimerEvent: {}
+[4.717473] (-) TimerEvent: {}
+[4.817927] (-) TimerEvent: {}
+[4.918347] (-) TimerEvent: {}
+[5.018887] (-) TimerEvent: {}
+[5.119467] (-) TimerEvent: {}
+[5.220084] (-) TimerEvent: {}
+[5.320474] (-) TimerEvent: {}
+[5.420870] (-) TimerEvent: {}
+[5.521184] (-) TimerEvent: {}
+[5.621496] (-) TimerEvent: {}
+[5.721783] (-) TimerEvent: {}
+[5.822119] (-) TimerEvent: {}
+[5.922400] (-) TimerEvent: {}
+[6.022686] (-) TimerEvent: {}
+[6.122937] (-) TimerEvent: {}
+[6.223155] (-) TimerEvent: {}
+[6.323396] (-) TimerEvent: {}
+[6.423683] (-) TimerEvent: {}
+[6.523974] (-) TimerEvent: {}
+[6.624229] (-) TimerEvent: {}
+[6.724514] (-) TimerEvent: {}
+[6.824814] (-) TimerEvent: {}
+[6.925127] (-) TimerEvent: {}
+[7.025516] (-) TimerEvent: {}
+[7.125725] (-) TimerEvent: {}
+[7.225958] (-) TimerEvent: {}
+[7.326153] (-) TimerEvent: {}
+[7.426401] (-) TimerEvent: {}
+[7.526676] (-) TimerEvent: {}
+[7.538762] (serial) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable serial\x1b[0m\n'}
+[7.626802] (-) TimerEvent: {}
+[7.727039] (-) TimerEvent: {}
+[7.827409] (-) TimerEvent: {}
+[7.855059] (serial) StdoutLine: {'line': b'[100%] Built target serial\n'}
+[7.864235] (serial) CommandEnded: {'returncode': 0}
+[7.864891] (serial) JobProgress: {'identifier': 'serial', 'progress': 'install'}
+[7.873060] (serial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/xyq/Desktop/boom_ws/build/serial'], 'cwd': '/home/xyq/Desktop/boom_ws/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LIBRARY_PATH', '/home/xyq/env/TensorRT-10.5.0.18.Linux.x86_64-gnu.cuda-12.6/TensorRT-10.5.0.18/lib/nvonnxparser:/home/xyq/env/TensorRT-10.5.0.18.Linux.x86_64-gnu.cuda-12.6/TensorRT-10.5.0.18/lib/nvonnxparser:'), ('MY_PATH', '/home/xyq/.local/bin:/home/xyq/.local/lib/python3.10/site-packages:/home/xyq/.nvm/versions/node/v20.18.1/bin:/opt/ros/humble/bin:/tmp/.mount_cursoru3Lnor:/tmp/.mount_cursoru3Lnor/usr/sbin:/home/xyq/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/xyq/.local/share/JetBrains/Toolbox/scripts:/opt/Typora-linux-x64:/usr/include/c++/11/:/home/xyq/.local/share/JetBrains/Toolbox/scripts:/home/xyq'), ('USER', 'xyq'), ('LANGUAGE', 'zh_CN:zh'), ('XDG_SESSION_TYPE', 'x11'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('GIT_ASKPASS', '/tmp/.mount_cursorwPau3K/resources/app/extensions/git/dist/askpass.sh'), ('ROS_PACKAGE_PATH', '/opt/ros/humble/share'), ('LD_LIBRARY_PATH', '/home/xyq/Desktop/boom_ws/install/vision_interfaces/lib:/home/xyq/env/TensorRT-10.5.0.18.Linux.x86_64-gnu.cuda-12.6/TensorRT-10.5.0.18/lib/nvonnxparser:/home/xyq/env/TensorRT-10.5.0.18.Linux.x86_64-gnu.cuda-12.6/TensorRT-10.5.0.18/lib:/home/xyq/Desktop/boom_ws/install/hik_camera_ros2_driver/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/xyq/env/TensorRT-10.5.0.18.Linux.x86_64-gnu.cuda-12.6/TensorRT-10.5.0.18/lib/nvonnxparser:/home/xyq/env/TensorRT-10.5.0.18.Linux.x86_64-gnu.cuda-12.6/TensorRT-10.5.0.18/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/tmp/.mount_cursoru3Lnor/usr/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32'), ('SHLVL', '2'), ('HOME', '/home/xyq'), ('APPDIR', '/tmp/.mount_cursoru3Lnor'), ('CHROME_DESKTOP', 'cursor-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '0.45.14'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/xyq/.nvm/versions/node/v20.18.1/bin'), ('NVM_INC', '/home/xyq/.nvm/versions/node/v20.18.1/include/node'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('VSCODE_GIT_ASKPASS_MAIN', '/tmp/.mount_cursorwPau3K/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/tmp/.mount_cursorwPau3K/cursor'), ('MANAGERPID', '2039'), ('SYSTEMD_EXEC_PID', '2376'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e3a7004d26978ef019260a1668016e49'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6182'), ('NVM_DIR', '/home/xyq/.nvm'), ('OMF_PATH', '/home/xyq/.local/share/omf'), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('COLCON_PREFIX_PATH', '/home/xyq/Desktop/boom_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'xyq'), ('OWD', '/home/xyq/Downloads'), ('JOURNAL_STREAM', '8:16903'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'xyq'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/home/xyq/.local/bin:/home/xyq/.local/lib/python3.10/site-packages:/home/xyq/.nvm/versions/node/v20.18.1/bin:/opt/ros/humble/bin:/tmp/.mount_cursoru3Lnor:/tmp/.mount_cursoru3Lnor/usr/sbin:/home/xyq/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/xyq/.local/share/JetBrains/Toolbox/scripts:/opt/Typora-linux-x64:/usr/include/c++/11/:/home/xyq/.local/share/JetBrains/Toolbox/scripts:/opt/Typora-linux-x64:/usr/include/c++/11/'), ('INVOCATION_ID', '4342fae0d4424d0eb28cc00db198e6f1'), ('APPIMAGE', '/home/xyq/Downloads/cursor-0.45.14-build-250219jnihavxsz-x86_64.AppImage'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('SESSION_MANAGER', 'local/xyq-Legion-Y7000P-IRH8:@/tmp/.ICE-unix/2376,unix/xyq-Legion-Y7000P-IRH8:/tmp/.ICE-unix/2376'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LANG', 'zh_CN.UTF-8'), ('VSCODE_INJECTION', '1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('CURSOR_TRACE_ID', '7dc27114cbd34b8fa02e977fc69f2886'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a2c3640f6d.sock'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('TERM_PROGRAM', 'vscode'), ('XMODIFIERS', '@im=ibus'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('GSETTINGS_SCHEMA_DIR', '/tmp/.mount_cursoru3Lnor/usr/share/glib-2.0/schemas:'), ('VSCODE_STABLE', '1'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xyq/Desktop/boom_ws/install/serial:/home/xyq/Desktop/boom_ws/install/resolve:/home/xyq/Desktop/boom_ws/install/vision_interfaces:/home/xyq/Desktop/boom_ws/install/hik_camera_ros2_driver:/home/xyq/Desktop/boom_ws/install/display:/opt/ros/humble'), ('ARGV0', '/home/xyq/Downloads/cursor-0.45.14-build-250219jnihavxsz-x86_64.AppImage'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('VSCODE_NONCE', 'f5b8ad04-2d43-4e0e-89b5-a62f139c0a5f'), ('PWD', '/home/xyq/Desktop/boom_ws/build/serial'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e3a7004d26978ef019260a1668016e49'), ('NVM_CD_FLAGS', ''), ('OMF_CONFIG', '/home/xyq/.config/omf'), ('XDG_DATA_DIRS', '/tmp/.mount_cursoru3Lnor/usr/share/:./share/:/usr/share/gnome:/usr/local/share/:/usr/share/:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/usr/share/gnome/:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/home/xyq/Desktop/boom_ws/install/vision_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/xyq/Desktop/boom_ws/install/vision_interfaces:/home/xyq/Desktop/boom_ws/install/serial:/home/xyq/Desktop/boom_ws/install/resolve:/home/xyq/Desktop/boom_ws/install/hik_camera_ros2_driver:/home/xyq/Desktop/boom_ws/install/display:/opt/ros/humble'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib')]), 'shell': False}
+[7.879833] (serial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.879991] (serial) StdoutLine: {'line': b'-- Installing: /home/xyq/Desktop/boom_ws/install/serial/lib/serial/serial\n'}
+[7.882405] (serial) StdoutLine: {'line': b'-- Set runtime path of "/home/xyq/Desktop/boom_ws/install/serial/lib/serial/serial" to ""\n'}
+[7.882688] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/xyq/Desktop/boom_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial\n'}
+[7.882775] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/xyq/Desktop/boom_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial\n'}
+[7.882860] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/xyq/Desktop/boom_ws/install/serial/share/serial/environment/ament_prefix_path.sh\n'}
+[7.882903] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/xyq/Desktop/boom_ws/install/serial/share/serial/environment/ament_prefix_path.dsv\n'}
+[7.882944] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/xyq/Desktop/boom_ws/install/serial/share/serial/environment/path.sh\n'}
+[7.883026] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/xyq/Desktop/boom_ws/install/serial/share/serial/environment/path.dsv\n'}
+[7.883068] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/xyq/Desktop/boom_ws/install/serial/share/serial/local_setup.bash\n'}
+[7.883114] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/xyq/Desktop/boom_ws/install/serial/share/serial/local_setup.sh\n'}
+[7.883153] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/xyq/Desktop/boom_ws/install/serial/share/serial/local_setup.zsh\n'}
+[7.883224] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/xyq/Desktop/boom_ws/install/serial/share/serial/local_setup.dsv\n'}
+[7.883266] (serial) StdoutLine: {'line': b'-- Installing: /home/xyq/Desktop/boom_ws/install/serial/share/serial/package.dsv\n'}
+[7.883301] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/xyq/Desktop/boom_ws/install/serial/share/ament_index/resource_index/packages/serial\n'}
+[7.883336] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/xyq/Desktop/boom_ws/install/serial/share/serial/cmake/serialConfig.cmake\n'}
+[7.883372] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/xyq/Desktop/boom_ws/install/serial/share/serial/cmake/serialConfig-version.cmake\n'}
+[7.883404] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/xyq/Desktop/boom_ws/install/serial/share/serial/package.xml\n'}
+[7.884466] (serial) CommandEnded: {'returncode': 0}
+[7.896022] (serial) JobEnded: {'identifier': 'serial', 'rc': 0}
+[7.896672] (-) EventReactorShutdown: {}

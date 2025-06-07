@@ -1,0 +1,30 @@
+[01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:[m[K In member function ‘[01m[Kvoid Resolve::Send(std::string, std::string)[m[K’:
+[01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:101:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::__cxx11::basic_string<char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  101 |                 for (int i=0; [01;35m[Ki<center_x.length()[m[K; i++) {
+      |                               [01;35m[K~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:107:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::__cxx11::basic_string<char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  107 |                 for (int i=0; [01;35m[Ki<center_y.length()[m[K; i++) {
+      |                               [01;35m[K~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:[m[K In member function ‘[01m[Kcv::Point2f slinding_window::get_element()[m[K’:
+[01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:200:42:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<cv::Point_<float> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  200 |                         if([01;35m[Kpoints.size() >= window_size[m[K) {
+      |                            [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:[m[K In function ‘[01m[Kvoid ImageResolveCallback(const ConstSharedPtr&)[m[K’:
+[01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:280:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  280 |         for (int i=0;[01;35m[Ki<contours.size()[m[K; i++) {
+      |                      [01;35m[K~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:288:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  288 |                 for (int i=0;[01;35m[Ki<contours.size()[m[K; i++) {
+      |                              [01;35m[K~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:303:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  303 |         for(int i = 0; [01;35m[Ki < area_vec.size()[m[K; i++) {
+      |                        [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:258:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  258 |         double [01;35m[Karea[m[K;
+      |                [01;35m[K^~~~[m[K
+[01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:265:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kimg_area[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  265 |         float [01;35m[Kimg_area[m[K = 1440*1080;
+      |               [01;35m[K^~~~~~~~[m[K
+[01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:271:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktext_cnt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  271 |         int [01;35m[Ktext_cnt[m[K = 0;
+      |             [01;35m[K^~~~~~~~[m[K

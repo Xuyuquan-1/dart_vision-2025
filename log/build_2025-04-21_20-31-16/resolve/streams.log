@@ -1,0 +1,106 @@
+[0.011s] Invoking command in '/home/xyq/Desktop/boom_ws/build/resolve': CMAKE_PREFIX_PATH=/home/xyq/Desktop/boom_ws/install/vision_interfaces:/home/xyq/Desktop/boom_ws/install/serial:/home/xyq/Desktop/boom_ws/install/resolve:/home/xyq/Desktop/boom_ws/install/hik_camera_ros2_driver:/home/xyq/Desktop/boom_ws/install/display:/opt/ros/humble LD_LIBRARY_PATH=/home/xyq/Desktop/boom_ws/install/vision_interfaces/lib:/home/xyq/env/TensorRT-10.5.0.18.Linux.x86_64-gnu.cuda-12.6/TensorRT-10.5.0.18/lib/nvonnxparser:/home/xyq/env/TensorRT-10.5.0.18.Linux.x86_64-gnu.cuda-12.6/TensorRT-10.5.0.18/lib:/home/xyq/Desktop/boom_ws/install/hik_camera_ros2_driver/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/xyq/env/TensorRT-10.5.0.18.Linux.x86_64-gnu.cuda-12.6/TensorRT-10.5.0.18/lib/nvonnxparser:/home/xyq/env/TensorRT-10.5.0.18.Linux.x86_64-gnu.cuda-12.6/TensorRT-10.5.0.18/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/tmp/.mount_cursorH5Jx53/usr/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/xyq/Desktop/boom_ws/build/resolve -- -j20 -l20
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target resolve[0m
+[0.059s] [ 50%] [32mBuilding CXX object CMakeFiles/resolve.dir/src/resolve_node.cpp.o[0m
+[1.700s] [01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:[m[K In member function ‘[01m[Kvoid Resolve::Send(std::string, std::string)[m[K’:
+[1.700s] [01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:93:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::__cxx11::basic_string<char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.700s]    93 |                 for (int i=0; [01;35m[Ki<center_x.length()[m[K; i++) {
+[1.700s]       |                               [01;35m[K~^~~~~~~~~~~~~~~~~~[m[K
+[1.700s] [01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:99:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::__cxx11::basic_string<char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.700s]    99 |                 for (int i=0; [01;35m[Ki<center_y.length()[m[K; i++) {
+[1.700s]       |                               [01;35m[K~^~~~~~~~~~~~~~~~~~[m[K
+[1.705s] [01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:[m[K In function ‘[01m[Kvoid ImageResolveCallback(const ConstSharedPtr&)[m[K’:
+[1.705s] [01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:183:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.705s]   183 |         for (int i=0;[01;35m[Ki<contours.size()[m[K; i++) {
+[1.705s]       |                      [01;35m[K~^~~~~~~~~~~~~~~~[m[K
+[1.706s] [01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:226:35:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kto_string(std::chrono::duration<long int, std::ratio<1, 1000000> >&)[m[K’
+[1.706s]   226 |         cv::putText(img, [01;31m[Kto_string(duration)[m[K, cv::Point(25, 100), cv::FONT_HERSHEY_DUPLEX, 0.6, cv::Scalar(0, 0, 255))
+[1.706s]       |                          [01;31m[K~~~~~~~~~^~~~~~~~~~[m[K
+[1.707s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[1.707s]                  from [01m[K/opt/ros/humble/include/image_transport/image_transport/subscriber.hpp:34[m[K,
+[1.707s]                  from [01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:2[m[K:
+[1.707s] [01m[K/usr/include/c++/11/bits/basic_string.h:6660:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::to_string(int)[m[K’
+[1.707s]  6660 |   [01;36m[Kto_string[m[K(int __val)
+[1.707s]       |   [01;36m[K^~~~~~~~~[m[K
+[1.707s] [01m[K/usr/include/c++/11/bits/basic_string.h:6660:17:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::chrono::duration<long int, std::ratio<1, 1000000> >[m[K’ to ‘[01m[Kint[m[K’
+[1.707s]  6660 |   to_string([01;36m[Kint __val[m[K)
+[1.707s]       |             [01;36m[K~~~~^~~~~[m[K
+[1.707s] [01m[K/usr/include/c++/11/bits/basic_string.h:6671:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::to_string(unsigned int)[m[K’
+[1.707s]  6671 |   [01;36m[Kto_string[m[K(unsigned __val)
+[1.707s]       |   [01;36m[K^~~~~~~~~[m[K
+[1.707s] [01m[K/usr/include/c++/11/bits/basic_string.h:6671:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::chrono::duration<long int, std::ratio<1, 1000000> >[m[K’ to ‘[01m[Kunsigned int[m[K’
+[1.707s]  6671 |   to_string([01;36m[Kunsigned __val[m[K)
+[1.707s]       |             [01;36m[K~~~~~~~~~^~~~~[m[K
+[1.707s] [01m[K/usr/include/c++/11/bits/basic_string.h:6679:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::to_string(long int)[m[K’
+[1.707s]  6679 |   [01;36m[Kto_string[m[K(long __val)
+[1.707s]       |   [01;36m[K^~~~~~~~~[m[K
+[1.707s] [01m[K/usr/include/c++/11/bits/basic_string.h:6679:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::chrono::duration<long int, std::ratio<1, 1000000> >[m[K’ to ‘[01m[Klong int[m[K’
+[1.707s]  6679 |   to_string([01;36m[Klong __val[m[K)
+[1.707s]       |             [01;36m[K~~~~~^~~~~[m[K
+[1.707s] [01m[K/usr/include/c++/11/bits/basic_string.h:6690:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::to_string(long unsigned int)[m[K’
+[1.707s]  6690 |   [01;36m[Kto_string[m[K(unsigned long __val)
+[1.707s]       |   [01;36m[K^~~~~~~~~[m[K
+[1.707s] [01m[K/usr/include/c++/11/bits/basic_string.h:6690:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::chrono::duration<long int, std::ratio<1, 1000000> >[m[K’ to ‘[01m[Klong unsigned int[m[K’
+[1.707s]  6690 |   to_string([01;36m[Kunsigned long __val[m[K)
+[1.707s]       |             [01;36m[K~~~~~~~~~~~~~~^~~~~[m[K
+[1.707s] [01m[K/usr/include/c++/11/bits/basic_string.h:6698:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::to_string(long long int)[m[K’
+[1.707s]  6698 |   [01;36m[Kto_string[m[K(long long __val)
+[1.707s]       |   [01;36m[K^~~~~~~~~[m[K
+[1.707s] [01m[K/usr/include/c++/11/bits/basic_string.h:6698:23:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::chrono::duration<long int, std::ratio<1, 1000000> >[m[K’ to ‘[01m[Klong long int[m[K’
+[1.707s]  6698 |   to_string([01;36m[Klong long __val[m[K)
+[1.707s]       |             [01;36m[K~~~~~~~~~~^~~~~[m[K
+[1.707s] [01m[K/usr/include/c++/11/bits/basic_string.h:6710:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::to_string(long long unsigned int)[m[K’
+[1.707s]  6710 |   [01;36m[Kto_string[m[K(unsigned long long __val)
+[1.707s]       |   [01;36m[K^~~~~~~~~[m[K
+[1.707s] [01m[K/usr/include/c++/11/bits/basic_string.h:6710:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::chrono::duration<long int, std::ratio<1, 1000000> >[m[K’ to ‘[01m[Klong long unsigned int[m[K’
+[1.707s]  6710 |   to_string([01;36m[Kunsigned long long __val[m[K)
+[1.707s]       |             [01;36m[K~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[1.707s] [01m[K/usr/include/c++/11/bits/basic_string.h:6721:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::to_string(float)[m[K’
+[1.707s]  6721 |   [01;36m[Kto_string[m[K(float __val)
+[1.708s]       |   [01;36m[K^~~~~~~~~[m[K
+[1.708s] [01m[K/usr/include/c++/11/bits/basic_string.h:6721:19:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::chrono::duration<long int, std::ratio<1, 1000000> >[m[K’ to ‘[01m[Kfloat[m[K’
+[1.708s]  6721 |   to_string([01;36m[Kfloat __val[m[K)
+[1.708s]       |             [01;36m[K~~~~~~^~~~~[m[K
+[1.708s] [01m[K/usr/include/c++/11/bits/basic_string.h:6730:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::to_string(double)[m[K’
+[1.708s]  6730 |   [01;36m[Kto_string[m[K(double __val)
+[1.708s]       |   [01;36m[K^~~~~~~~~[m[K
+[1.708s] [01m[K/usr/include/c++/11/bits/basic_string.h:6730:20:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::chrono::duration<long int, std::ratio<1, 1000000> >[m[K’ to ‘[01m[Kdouble[m[K’
+[1.708s]  6730 |   to_string([01;36m[Kdouble __val[m[K)
+[1.708s]       |             [01;36m[K~~~~~~~^~~~~[m[K
+[1.708s] [01m[K/usr/include/c++/11/bits/basic_string.h:6739:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::to_string(long double)[m[K’
+[1.708s]  6739 |   [01;36m[Kto_string[m[K(long double __val)
+[1.708s]       |   [01;36m[K^~~~~~~~~[m[K
+[1.708s] [01m[K/usr/include/c++/11/bits/basic_string.h:6739:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::chrono::duration<long int, std::ratio<1, 1000000> >[m[K’ to ‘[01m[Klong double[m[K’
+[1.708s]  6739 |   to_string([01;36m[Klong double __val[m[K)
+[1.708s]       |             [01;36m[K~~~~~~~~~~~~^~~~~[m[K
+[1.708s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[1.708s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+[1.708s]                  from [01m[K/opt/ros/humble/include/image_transport/image_transport/subscriber.hpp:36[m[K,
+[1.708s]                  from [01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:2[m[K:
+[1.708s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:289:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::to_string(const rclcpp::Parameter&)[m[K’
+[1.708s]   289 | [01;36m[Kto_string[m[K(const rclcpp::Parameter & param);
+[1.708s]       | [01;36m[K^~~~~~~~~[m[K
+[1.708s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:289:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::chrono::duration<long int, std::ratio<1, 1000000> >[m[K’ to ‘[01m[Kconst rclcpp::Parameter&[m[K’
+[1.708s]   289 | to_string([01;36m[Kconst rclcpp::Parameter & param[m[K);
+[1.708s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[1.708s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:294:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::to_string(const std::vector<rclcpp::Parameter>&)[m[K’
+[1.708s]   294 | [01;36m[Kto_string[m[K(const std::vector<rclcpp::Parameter> & parameters);
+[1.708s]       | [01;36m[K^~~~~~~~~[m[K
+[1.708s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:294:50:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::chrono::duration<long int, std::ratio<1, 1000000> >[m[K’ to ‘[01m[Kconst std::vector<rclcpp::Parameter>&[m[K’
+[1.708s]   294 | ng([01;36m[Kconst std::vector<rclcpp::Parameter> & parameters[m[K);
+[1.708s]       |    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[1.708s] 
+[1.708s] [01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:146:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kfps[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.708s]   146 |         static double [01;35m[Kfps[m[K = 0.0;
+[1.708s]       |                       [01;35m[K^~~[m[K
+[1.708s] [01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:147:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KframeCount[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.708s]   147 |         static int [01;35m[KframeCount[m[K = 0;
+[1.708s]       |                    [01;35m[K^~~~~~~~~~[m[K
+[2.352s] [01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:[m[K At global scope:
+[2.352s] [01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:147:20:[m[K [01;35m[Kwarning: [m[K‘[01m[KframeCount[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.352s] [01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:146:23:[m[K [01;35m[Kwarning: [m[K‘[01m[Kfps[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.352s]   146 |         static double [01;35m[Kfps[m[K = 0.0;
+[2.352s]       |                       [01;35m[K^~~[m[K
+[2.372s] gmake[2]: *** [CMakeFiles/resolve.dir/build.make:76：CMakeFiles/resolve.dir/src/resolve_node.cpp.o] 错误 1
+[2.372s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/resolve.dir/all] 错误 2
+[2.372s] gmake: *** [Makefile:146：all] 错误 2
+[2.375s] Invoked command in '/home/xyq/Desktop/boom_ws/build/resolve' returned '2': CMAKE_PREFIX_PATH=/home/xyq/Desktop/boom_ws/install/vision_interfaces:/home/xyq/Desktop/boom_ws/install/serial:/home/xyq/Desktop/boom_ws/install/resolve:/home/xyq/Desktop/boom_ws/install/hik_camera_ros2_driver:/home/xyq/Desktop/boom_ws/install/display:/opt/ros/humble LD_LIBRARY_PATH=/home/xyq/Desktop/boom_ws/install/vision_interfaces/lib:/home/xyq/env/TensorRT-10.5.0.18.Linux.x86_64-gnu.cuda-12.6/TensorRT-10.5.0.18/lib/nvonnxparser:/home/xyq/env/TensorRT-10.5.0.18.Linux.x86_64-gnu.cuda-12.6/TensorRT-10.5.0.18/lib:/home/xyq/Desktop/boom_ws/install/hik_camera_ros2_driver/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/xyq/env/TensorRT-10.5.0.18.Linux.x86_64-gnu.cuda-12.6/TensorRT-10.5.0.18/lib/nvonnxparser:/home/xyq/env/TensorRT-10.5.0.18.Linux.x86_64-gnu.cuda-12.6/TensorRT-10.5.0.18/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/tmp/.mount_cursorH5Jx53/usr/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/xyq/Desktop/boom_ws/build/resolve -- -j20 -l20

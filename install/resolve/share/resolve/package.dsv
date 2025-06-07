@@ -1,0 +1,8 @@
+source;share/resolve/hook/cmake_prefix_path.ps1
+source;share/resolve/hook/cmake_prefix_path.dsv
+source;share/resolve/hook/cmake_prefix_path.sh
+source;share/resolve/local_setup.bash
+source;share/resolve/local_setup.dsv
+source;share/resolve/local_setup.ps1
+source;share/resolve/local_setup.sh
+source;share/resolve/local_setup.zsh

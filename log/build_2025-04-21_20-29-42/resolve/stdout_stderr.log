@@ -1,0 +1,34 @@
+[35m[1mConsolidate compiler generated dependencies of target resolve[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/resolve.dir/src/resolve_node.cpp.o[0m
+[01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:[m[K In member function ‘[01m[Kvoid Resolve::Send(std::string, std::string)[m[K’:
+[01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:93:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::__cxx11::basic_string<char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   93 |                 for (int i=0; [01;35m[Ki<center_x.length()[m[K; i++) {
+      |                               [01;35m[K~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:99:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::__cxx11::basic_string<char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   99 |                 for (int i=0; [01;35m[Ki<center_y.length()[m[K; i++) {
+      |                               [01;35m[K~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:[m[K In function ‘[01m[Kvoid ImageResolveCallback(const ConstSharedPtr&)[m[K’:
+[01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:183:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  183 |         for (int i=0;[01;35m[Ki<contours.size()[m[K; i++) {
+      |                      [01;35m[K~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:224:16:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble fps[m[K’
+  224 |         double [01;31m[Kfps[m[K = curTime - lastTime;
+      |                [01;31m[K^~~[m[K
+[01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:146:23:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble fps[m[K’ previously declared here
+  146 |         static double [01;36m[Kfps[m[K = 0.0;
+      |                       [01;36m[K^~~[m[K
+[01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:226:114:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+  226 |         cv::putText(img, to_string(fps), cv::Point(25, 100), cv::FONT_HERSHEY_DUPLEX, 0.6, cv::Scalar(0, 0, 255))
+      |                                                                                                                  [01;31m[K^[m[K
+      |                                                                                                                  [32m[K;[m[K
+......
+  230 | [32m[K}[m[K
+      | [32m[K~[m[K                                                                                                                 
+[01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:147:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KframeCount[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  147 |         static int [01;35m[KframeCount[m[K = 0;
+      |                    [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:[m[K At global scope:
+[01m[K/home/xyq/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:147:20:[m[K [01;35m[Kwarning: [m[K‘[01m[KframeCount[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+gmake[2]: *** [CMakeFiles/resolve.dir/build.make:76：CMakeFiles/resolve.dir/src/resolve_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/resolve.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

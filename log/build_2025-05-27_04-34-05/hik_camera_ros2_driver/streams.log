@@ -1,0 +1,111 @@
+[0.006s] Invoking command in '/home/new-sentry/Desktop/boom_ws/build/hik_camera_ros2_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/new-sentry/Desktop/boom_ws/src/hik_camera_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver
+[0.009s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.009s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.009s]   CMake.
+[0.009s] 
+[0.009s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.009s]   to tell CMake that the project requires at least <min> but has been updated
+[0.009s]   to work with policies introduced by <max> or earlier.
+[0.009s] 
+[0.009s] [0m
+[0.075s] -- The C compiler identification is GNU 11.4.0
+[0.129s] -- The CXX compiler identification is GNU 11.4.0
+[0.144s] -- Detecting C compiler ABI info
+[0.192s] -- Detecting C compiler ABI info - done
+[0.234s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.235s] -- Detecting C compile features
+[0.236s] -- Detecting C compile features - done
+[0.251s] -- Detecting CXX compiler ABI info
+[0.307s] -- Detecting CXX compiler ABI info - done
+[0.351s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.352s] -- Detecting CXX compile features
+[0.353s] -- Detecting CXX compile features - done
+[0.360s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.447s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.613s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.622s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.640s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.670s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.708s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.806s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.810s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.914s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[0.950s] -- Found FastRTPS: /opt/ros/humble/include
+[1.005s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.018s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.071s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.074s] -- Found Threads: TRUE
+[1.443s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.471s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.472s] -- Configured cppcheck include dirs: /home/new-sentry/Desktop/boom_ws/src/hik_camera_ros2_driver/hikSDK/include
+[1.472s] -- Configured cppcheck exclude dirs and/or files: 
+[1.474s] -- Added test 'lint_cmake' to check CMake code style
+[1.475s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.476s] -- Added test 'xmllint' to check XML markup files
+[1.480s] -- Configuring done (1.5s)
+[1.495s] [33mCMake Warning (dev) at /opt/ros/humble/share/camera_calibration_parsers/cmake/export_camera_calibration_parsersExport.cmake:56 (set_target_properties):
+[1.495s]   The library that is being linked to, yaml-cpp, is marked as being
+[1.495s]   deprecated by the owner.  The message provided by the developer is:
+[1.495s] 
+[1.495s]   The target yaml-cpp is deprecated and will be removed in version 0.10.0.
+[1.495s]   Use the yaml-cpp::yaml-cpp target instead.
+[1.495s] 
+[1.495s] Call Stack (most recent call first):
+[1.495s]   /opt/ros/humble/share/camera_calibration_parsers/cmake/ament_cmake_export_targets-extras.cmake:9 (include)
+[1.495s]   /opt/ros/humble/share/camera_calibration_parsers/cmake/camera_calibration_parsersConfig.cmake:41 (include)
+[1.495s]   /opt/ros/humble/share/camera_info_manager/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.495s]   /opt/ros/humble/share/camera_info_manager/cmake/camera_info_managerConfig.cmake:41 (include)
+[1.495s]   /opt/ros/humble/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+[1.495s]   CMakeLists.txt:16 (ament_auto_find_build_dependencies)
+[1.495s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.495s] [0m
+[1.505s] -- Generating done (0.0s)
+[1.512s] -- Build files have been written to: /home/new-sentry/Desktop/boom_ws/build/hik_camera_ros2_driver
+[1.521s] Invoked command in '/home/new-sentry/Desktop/boom_ws/build/hik_camera_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/new-sentry/Desktop/boom_ws/src/hik_camera_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver
+[1.522s] Invoking command in '/home/new-sentry/Desktop/boom_ws/build/hik_camera_ros2_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/new-sentry/Desktop/boom_ws/build/hik_camera_ros2_driver -- -j16 -l16
+[1.547s] [ 25%] [32mBuilding CXX object CMakeFiles/hik_camera_ros2_driver.dir/src/hik_camera_node.cpp.o[0m
+[1.548s] [ 50%] [32mBuilding CXX object CMakeFiles/hik_camera_ros2_driver_node.dir/rclcpp_components/node_main_hik_camera_ros2_driver_node.cpp.o[0m
+[3.289s] [ 75%] [32m[1mLinking CXX shared library libhik_camera_ros2_driver.so[0m
+[3.385s] [ 75%] Built target hik_camera_ros2_driver
+[3.493s] [100%] [32m[1mLinking CXX executable hik_camera_ros2_driver_node[0m
+[3.558s] [100%] Built target hik_camera_ros2_driver_node
+[3.563s] Invoked command in '/home/new-sentry/Desktop/boom_ws/build/hik_camera_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/new-sentry/Desktop/boom_ws/build/hik_camera_ros2_driver -- -j16 -l16
+[3.568s] Invoking command in '/home/new-sentry/Desktop/boom_ws/build/hik_camera_ros2_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/new-sentry/Desktop/boom_ws/build/hik_camera_ros2_driver
+[3.572s] -- Install configuration: ""
+[3.572s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/lib
+[3.572s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/lib/libMvCameraControl.so
+[3.575s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/lib/libMvUsb3vTL.so
+[3.579s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/lib/libMVRender.so
+[3.579s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/lib/libMediaProcess.so
+[3.580s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/lib/libFormatConversion.so
+[3.581s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/lib/hik_camera_ros2_driver/hik_camera_ros2_driver_node
+[3.581s] -- Set non-toolchain portion of runtime path of "/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/lib/hik_camera_ros2_driver/hik_camera_ros2_driver_node" to ""
+[3.581s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/hik_camera_ros2_driver/environment/library_path.sh
+[3.581s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/hik_camera_ros2_driver/environment/library_path.dsv
+[3.581s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/lib/libhik_camera_ros2_driver.so
+[3.582s] -- Set non-toolchain portion of runtime path of "/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/lib/libhik_camera_ros2_driver.so" to ""
+[3.582s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/hik_camera_ros2_driver/launch
+[3.582s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/hik_camera_ros2_driver/launch/hik_camera_launch.py
+[3.582s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/hik_camera_ros2_driver/config
+[3.582s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/hik_camera_ros2_driver/config/new_params.yaml
+[3.582s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/hik_camera_ros2_driver/config/camera_params.yaml
+[3.582s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/hik_camera_ros2_driver/config/camera_info.yaml
+[3.582s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/ament_index/resource_index/package_run_dependencies/hik_camera_ros2_driver
+[3.582s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/ament_index/resource_index/parent_prefix_path/hik_camera_ros2_driver
+[3.583s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/hik_camera_ros2_driver/environment/ament_prefix_path.sh
+[3.583s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/hik_camera_ros2_driver/environment/ament_prefix_path.dsv
+[3.583s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/hik_camera_ros2_driver/environment/path.sh
+[3.583s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/hik_camera_ros2_driver/environment/path.dsv
+[3.583s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/hik_camera_ros2_driver/local_setup.bash
+[3.583s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/hik_camera_ros2_driver/local_setup.sh
+[3.583s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/hik_camera_ros2_driver/local_setup.zsh
+[3.583s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/hik_camera_ros2_driver/local_setup.dsv
+[3.583s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/hik_camera_ros2_driver/package.dsv
+[3.583s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/ament_index/resource_index/packages/hik_camera_ros2_driver
+[3.583s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/ament_index/resource_index/rclcpp_components/hik_camera_ros2_driver
+[3.583s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/hik_camera_ros2_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.583s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/hik_camera_ros2_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[3.584s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/hik_camera_ros2_driver/cmake/hik_camera_ros2_driverConfig.cmake
+[3.584s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/hik_camera_ros2_driver/cmake/hik_camera_ros2_driverConfig-version.cmake
+[3.584s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/share/hik_camera_ros2_driver/package.xml
+[3.585s] Invoked command in '/home/new-sentry/Desktop/boom_ws/build/hik_camera_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/new-sentry/Desktop/boom_ws/build/hik_camera_ros2_driver

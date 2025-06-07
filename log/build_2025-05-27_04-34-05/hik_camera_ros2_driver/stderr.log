@@ -1,0 +1,25 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+[33mCMake Warning (dev) at /opt/ros/humble/share/camera_calibration_parsers/cmake/export_camera_calibration_parsersExport.cmake:56 (set_target_properties):
+  The library that is being linked to, yaml-cpp, is marked as being
+  deprecated by the owner.  The message provided by the developer is:
+
+  The target yaml-cpp is deprecated and will be removed in version 0.10.0.
+  Use the yaml-cpp::yaml-cpp target instead.
+
+Call Stack (most recent call first):
+  /opt/ros/humble/share/camera_calibration_parsers/cmake/ament_cmake_export_targets-extras.cmake:9 (include)
+  /opt/ros/humble/share/camera_calibration_parsers/cmake/camera_calibration_parsersConfig.cmake:41 (include)
+  /opt/ros/humble/share/camera_info_manager/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/humble/share/camera_info_manager/cmake/camera_info_managerConfig.cmake:41 (include)
+  /opt/ros/humble/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+  CMakeLists.txt:16 (ament_auto_find_build_dependencies)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m

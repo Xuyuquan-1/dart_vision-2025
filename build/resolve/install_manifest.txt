@@ -1,0 +1,16 @@
+/home/new-sentry/Desktop/boom_ws/install/resolve/lib/resolve/resolve
+/home/new-sentry/Desktop/boom_ws/install/resolve/share/ament_index/resource_index/package_run_dependencies/resolve
+/home/new-sentry/Desktop/boom_ws/install/resolve/share/ament_index/resource_index/parent_prefix_path/resolve
+/home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/environment/ament_prefix_path.sh
+/home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/environment/ament_prefix_path.dsv
+/home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/environment/path.sh
+/home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/environment/path.dsv
+/home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/local_setup.bash
+/home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/local_setup.sh
+/home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/local_setup.zsh
+/home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/local_setup.dsv
+/home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/package.dsv
+/home/new-sentry/Desktop/boom_ws/install/resolve/share/ament_index/resource_index/packages/resolve
+/home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/cmake/resolveConfig.cmake
+/home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/cmake/resolveConfig-version.cmake
+/home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/package.xml

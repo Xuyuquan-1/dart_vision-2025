@@ -1,0 +1,3 @@
+Invoking command in '/home/qiqi/桌面/boom_ws/build/display': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/qiqi/桌面/boom_ws/src/display -DCMAKE_INSTALL_PREFIX=/home/qiqi/桌面/boom_ws/install/display
+Invoked command in '/home/qiqi/桌面/boom_ws/build/display' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/qiqi/桌面/boom_ws/src/display -DCMAKE_INSTALL_PREFIX=/home/qiqi/桌面/boom_ws/install/display
+Invoking command in '/home/qiqi/桌面/boom_ws/build/display': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/qiqi/桌面/boom_ws/build/display -- -j8 -l8

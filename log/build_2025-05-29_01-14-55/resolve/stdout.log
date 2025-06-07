@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/resolve.dir/src/resolve_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable resolve[0m
+[100%] Built target resolve
+-- Install configuration: ""
+-- Installing: /home/new-sentry/Desktop/boom_ws/install/resolve/lib/resolve/resolve
+-- Set non-toolchain portion of runtime path of "/home/new-sentry/Desktop/boom_ws/install/resolve/lib/resolve/resolve" to ""
+-- Up-to-date: /home/new-sentry/Desktop/boom_ws/install/resolve/share/ament_index/resource_index/package_run_dependencies/resolve
+-- Up-to-date: /home/new-sentry/Desktop/boom_ws/install/resolve/share/ament_index/resource_index/parent_prefix_path/resolve
+-- Up-to-date: /home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/environment/ament_prefix_path.sh
+-- Up-to-date: /home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/environment/path.sh
+-- Up-to-date: /home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/environment/path.dsv
+-- Up-to-date: /home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/local_setup.bash
+-- Up-to-date: /home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/local_setup.sh
+-- Up-to-date: /home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/local_setup.zsh
+-- Up-to-date: /home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/local_setup.dsv
+-- Installing: /home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/package.dsv
+-- Up-to-date: /home/new-sentry/Desktop/boom_ws/install/resolve/share/ament_index/resource_index/packages/resolve
+-- Up-to-date: /home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/cmake/resolveConfig.cmake
+-- Up-to-date: /home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/cmake/resolveConfig-version.cmake
+-- Up-to-date: /home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/package.xml

@@ -1,0 +1,89 @@
+[0.006s] Invoking command in '/home/new-sentry/Desktop/boom_ws/build/resolve': CMAKE_PREFIX_PATH=/home/new-sentry/Desktop/boom_ws/install/vision_interfaces:/home/new-sentry/Desktop/boom_ws/install/serial:/home/new-sentry/Desktop/boom_ws/install/resolve:/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver:/home/new-sentry/Desktop/boom_ws/install/display:/opt/ros/humble LD_LIBRARY_PATH=/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/local/bin/cmake --build /home/new-sentry/Desktop/boom_ws/build/resolve -- -j16 -l16
+[0.038s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.221s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.279s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.287s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.303s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.331s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.369s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.466s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.470s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.639s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.793s] -- Found image_transport: 3.1.11 (/opt/ros/humble/share/image_transport/cmake)
+[0.919s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.925s] -- Found vision_interfaces: 0.0.0 (/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/cmake)
+[0.967s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.021s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.024s] -- Configured cppcheck include dirs: 
+[1.025s] -- Configured cppcheck exclude dirs and/or files: 
+[1.026s] -- Added test 'lint_cmake' to check CMake code style
+[1.027s] -- Added test 'uncrustify' to check C / C++ code style
+[1.027s] -- Configured uncrustify additional arguments: 
+[1.027s] -- Added test 'xmllint' to check XML markup files
+[1.029s] -- Configuring done (1.0s)
+[1.059s] -- Generating done (0.0s)
+[1.066s] -- Build files have been written to: /home/new-sentry/Desktop/boom_ws/build/resolve
+[1.101s] [ 50%] [32m[1mLinking CXX executable resolve[0m
+[1.352s] /usr/bin/ld: CMakeFiles/resolve.dir/src/resolve_node.cpp.o: warning: relocation against `_ZTVN4YAML11InvalidNodeE' in read-only section `.text._ZN4YAML11InvalidNodeC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML11InvalidNodeC5ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]'
+[1.410s] /usr/bin/ld: CMakeFiles/resolve.dir/src/resolve_node.cpp.o: in function `YAML::Exception::Exception(YAML::Mark const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+[1.410s] resolve_node.cpp:(.text._ZN4YAML9ExceptionC2ERKNS_4MarkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML9ExceptionC5ERKNS_4MarkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x61): undefined reference to `vtable for YAML::Exception'
+[1.410s] /usr/bin/ld: CMakeFiles/resolve.dir/src/resolve_node.cpp.o: in function `YAML::RepresentationException::RepresentationException(YAML::Mark const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+[1.410s] resolve_node.cpp:(.text._ZN4YAML23RepresentationExceptionC2ERKNS_4MarkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML23RepresentationExceptionC5ERKNS_4MarkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x32): undefined reference to `vtable for YAML::RepresentationException'
+[1.410s] /usr/bin/ld: CMakeFiles/resolve.dir/src/resolve_node.cpp.o: in function `YAML::InvalidNode::InvalidNode(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+[1.410s] resolve_node.cpp:(.text._ZN4YAML11InvalidNodeC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML11InvalidNodeC5ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x71): undefined reference to `vtable for YAML::InvalidNode'
+[1.411s] /usr/bin/ld: CMakeFiles/resolve.dir/src/resolve_node.cpp.o: in function `YAML::BadConversion::BadConversion(YAML::Mark const&)':
+[1.411s] resolve_node.cpp:(.text._ZN4YAML13BadConversionC2ERKNS_4MarkE[_ZN4YAML13BadConversionC5ERKNS_4MarkE]+0x7c): undefined reference to `vtable for YAML::BadConversion'
+[1.411s] /usr/bin/ld: CMakeFiles/resolve.dir/src/resolve_node.cpp.o: in function `YAML::detail::memory_holder::create_node()':
+[1.411s] resolve_node.cpp:(.text._ZN4YAML6detail13memory_holder11create_nodeEv[_ZN4YAML6detail13memory_holder11create_nodeEv]+0x20): undefined reference to `YAML::detail::memory::create_node()'
+[1.411s] /usr/bin/ld: CMakeFiles/resolve.dir/src/resolve_node.cpp.o: in function `YAML::detail::node_ref::mark_defined()':
+[1.411s] resolve_node.cpp:(.text._ZN4YAML6detail8node_ref12mark_definedEv[_ZN4YAML6detail8node_ref12mark_definedEv]+0x20): undefined reference to `YAML::detail::node_data::mark_defined()'
+[1.411s] /usr/bin/ld: CMakeFiles/resolve.dir/src/resolve_node.cpp.o: in function `YAML::detail::node_ref::set_null()':
+[1.411s] resolve_node.cpp:(.text._ZN4YAML6detail8node_ref8set_nullEv[_ZN4YAML6detail8node_ref8set_nullEv]+0x20): undefined reference to `YAML::detail::node_data::set_null()'
+[1.411s] /usr/bin/ld: CMakeFiles/resolve.dir/src/resolve_node.cpp.o: in function `YAML::detail::node_ref::set_scalar(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+[1.411s] resolve_node.cpp:(.text._ZN4YAML6detail8node_ref10set_scalarERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML6detail8node_ref10set_scalarERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x2e): undefined reference to `YAML::detail::node_data::set_scalar(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+[1.411s] /usr/bin/ld: CMakeFiles/resolve.dir/src/resolve_node.cpp.o: in function `YAML::Node::EnsureNodeExists() const':
+[1.411s] resolve_node.cpp:(.text._ZNK4YAML4Node16EnsureNodeExistsEv[_ZNK4YAML4Node16EnsureNodeExistsEv]+0x44): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+[1.411s] /usr/bin/ld: resolve_node.cpp:(.text._ZNK4YAML4Node16EnsureNodeExistsEv[_ZNK4YAML4Node16EnsureNodeExistsEv]+0x4e): undefined reference to `typeinfo for YAML::InvalidNode'
+[1.411s] /usr/bin/ld: CMakeFiles/resolve.dir/src/resolve_node.cpp.o: in function `YAML::Node::Mark() const':
+[1.411s] resolve_node.cpp:(.text._ZNK4YAML4Node4MarkEv[_ZNK4YAML4Node4MarkEv]+0x44): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+[1.411s] /usr/bin/ld: resolve_node.cpp:(.text._ZNK4YAML4Node4MarkEv[_ZNK4YAML4Node4MarkEv]+0x4e): undefined reference to `typeinfo for YAML::InvalidNode'
+[1.411s] /usr/bin/ld: CMakeFiles/resolve.dir/src/resolve_node.cpp.o: in function `YAML::Node::Type() const':
+[1.411s] resolve_node.cpp:(.text._ZNK4YAML4Node4TypeEv[_ZNK4YAML4Node4TypeEv]+0x44): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+[1.411s] /usr/bin/ld: resolve_node.cpp:(.text._ZNK4YAML4Node4TypeEv[_ZNK4YAML4Node4TypeEv]+0x4e): undefined reference to `typeinfo for YAML::InvalidNode'
+[1.411s] /usr/bin/ld: CMakeFiles/resolve.dir/src/resolve_node.cpp.o: in function `YAML::as_if<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, void>::operator()() const':
+[1.411s] resolve_node.cpp:(.text._ZNK4YAML5as_ifINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEvEclEv[_ZNK4YAML5as_ifINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEvEclEv]+0x64): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+[1.412s] /usr/bin/ld: resolve_node.cpp:(.text._ZNK4YAML5as_ifINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEvEclEv[_ZNK4YAML5as_ifINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEvEclEv]+0x6e): undefined reference to `typeinfo for YAML::InvalidNode'
+[1.412s] /usr/bin/ld: CMakeFiles/resolve.dir/src/resolve_node.cpp.o: in function `YAML::Node::Scalar[abi:cxx11]() const':
+[1.412s] resolve_node.cpp:(.text._ZNK4YAML4Node6ScalarB5cxx11Ev[_ZNK4YAML4Node6ScalarB5cxx11Ev]+0x44): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+[1.412s] /usr/bin/ld: resolve_node.cpp:(.text._ZNK4YAML4Node6ScalarB5cxx11Ev[_ZNK4YAML4Node6ScalarB5cxx11Ev]+0x4e): undefined reference to `typeinfo for YAML::InvalidNode'
+[1.412s] /usr/bin/ld: resolve_node.cpp:(.text._ZNK4YAML4Node6ScalarB5cxx11Ev[_ZNK4YAML4Node6ScalarB5cxx11Ev]+0x7d): undefined reference to `YAML::detail::node_data::empty_scalar[abi:cxx11]()'
+[1.412s] /usr/bin/ld: CMakeFiles/resolve.dir/src/resolve_node.cpp.o: in function `YAML::Node::is(YAML::Node const&) const':
+[1.412s] resolve_node.cpp:(.text._ZNK4YAML4Node2isERKS0_[_ZNK4YAML4Node2isERKS0_]+0x56): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+[1.412s] /usr/bin/ld: resolve_node.cpp:(.text._ZNK4YAML4Node2isERKS0_[_ZNK4YAML4Node2isERKS0_]+0x60): undefined reference to `typeinfo for YAML::InvalidNode'
+[1.412s] /usr/bin/ld: CMakeFiles/resolve.dir/src/resolve_node.cpp.o: in function `YAML::Node::AssignNode(YAML::Node const&)':
+[1.412s] resolve_node.cpp:(.text._ZN4YAML4Node10AssignNodeERKS0_[_ZN4YAML4Node10AssignNodeERKS0_]+0x48): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+[1.412s] /usr/bin/ld: resolve_node.cpp:(.text._ZN4YAML4Node10AssignNodeERKS0_[_ZN4YAML4Node10AssignNodeERKS0_]+0x52): undefined reference to `typeinfo for YAML::InvalidNode'
+[1.412s] /usr/bin/ld: resolve_node.cpp:(.text._ZN4YAML4Node10AssignNodeERKS0_[_ZN4YAML4Node10AssignNodeERKS0_]+0xec): undefined reference to `YAML::detail::memory_holder::merge(YAML::detail::memory_holder&)'
+[1.412s] /usr/bin/ld: CMakeFiles/resolve.dir/src/resolve_node.cpp.o: in function `yaml_parser::yaml_parser(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)':
+[1.412s] resolve_node.cpp:(.text._ZN11yaml_parserC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN11yaml_parserC5ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x62): undefined reference to `YAML::LoadFile(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+[1.413s] /usr/bin/ld: CMakeFiles/resolve.dir/src/resolve_node.cpp.o: in function `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > YAML::Node::as<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >() const':
+[1.413s] resolve_node.cpp:(.text._ZNK4YAML4Node2asINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEET_v[_ZNK4YAML4Node2asINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEET_v]+0x57): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+[1.413s] /usr/bin/ld: resolve_node.cpp:(.text._ZNK4YAML4Node2asINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEET_v[_ZNK4YAML4Node2asINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEET_v]+0x61): undefined reference to `typeinfo for YAML::InvalidNode'
+[1.413s] /usr/bin/ld: CMakeFiles/resolve.dir/src/resolve_node.cpp.o: in function `YAML::detail::node& YAML::detail::node_data::get<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::shared_ptr<YAML::detail::memory_holder>)':
+[1.413s] resolve_node.cpp:(.text._ZN4YAML6detail9node_data3getINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0xd3): undefined reference to `YAML::detail::node_data::convert_to_map(std::shared_ptr<YAML::detail::memory_holder> const&)'
+[1.414s] /usr/bin/ld: resolve_node.cpp:(.text._ZN4YAML6detail9node_data3getINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x103): undefined reference to `YAML::BadSubscript::~BadSubscript()'
+[1.414s] /usr/bin/ld: resolve_node.cpp:(.text._ZN4YAML6detail9node_data3getINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x10d): undefined reference to `typeinfo for YAML::BadSubscript'
+[1.414s] /usr/bin/ld: resolve_node.cpp:(.text._ZN4YAML6detail9node_data3getINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x1fb): undefined reference to `YAML::detail::node_data::insert_map_pair(YAML::detail::node&, YAML::detail::node&)'
+[1.414s] /usr/bin/ld: CMakeFiles/resolve.dir/src/resolve_node.cpp.o: in function `YAML::BadSubscript::BadSubscript<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(YAML::Mark const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+[1.414s] resolve_node.cpp:(.text._ZN4YAML12BadSubscriptC2INSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEERKNS_4MarkERKT_[_ZN4YAML12BadSubscriptC5INSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEERKNS_4MarkERKT_]+0x61): undefined reference to `vtable for YAML::BadSubscript'
+[1.414s] /usr/bin/ld: CMakeFiles/resolve.dir/src/resolve_node.cpp.o: in function `YAML::detail::node& YAML::detail::node_data::convert_to_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::shared_ptr<YAML::detail::memory_holder>)':
+[1.414s] resolve_node.cpp:(.text._ZN4YAML6detail9node_data15convert_to_nodeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data15convert_to_nodeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x69): undefined reference to `YAML::detail::memory_holder::merge(YAML::detail::memory_holder&)'
+[1.415s] /usr/bin/ld: CMakeFiles/resolve.dir/src/resolve_node.cpp.o: in function `YAML::TypedBadConversion<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::~TypedBadConversion()':
+[1.415s] resolve_node.cpp:(.text._ZN4YAML18TypedBadConversionINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED2Ev[_ZN4YAML18TypedBadConversionINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED5Ev]+0x26): undefined reference to `YAML::BadConversion::~BadConversion()'
+[1.415s] /usr/bin/ld: CMakeFiles/resolve.dir/src/resolve_node.cpp.o:(.data.rel.ro._ZTIN4YAML18TypedBadConversionINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE[_ZTIN4YAML18TypedBadConversionINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE]+0x10): undefined reference to `typeinfo for YAML::BadConversion'
+[1.436s] /usr/bin/ld: warning: creating DT_TEXTREL in a PIE
+[1.439s] collect2: error: ld returned 1 exit status
+[1.440s] gmake[2]: *** [CMakeFiles/resolve.dir/build.make:243：resolve] 错误 1
+[1.440s] gmake[1]: *** [CMakeFiles/Makefile2:153：CMakeFiles/resolve.dir/all] 错误 2
+[1.440s] gmake: *** [Makefile:146：all] 错误 2
+[1.442s] Invoked command in '/home/new-sentry/Desktop/boom_ws/build/resolve' returned '2': CMAKE_PREFIX_PATH=/home/new-sentry/Desktop/boom_ws/install/vision_interfaces:/home/new-sentry/Desktop/boom_ws/install/serial:/home/new-sentry/Desktop/boom_ws/install/resolve:/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver:/home/new-sentry/Desktop/boom_ws/install/display:/opt/ros/humble LD_LIBRARY_PATH=/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/new-sentry/Desktop/boom_ws/install/hik_camera_ros2_driver/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/local/bin/cmake --build /home/new-sentry/Desktop/boom_ws/build/resolve -- -j16 -l16

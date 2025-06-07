@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target display[0m
+[100%] Built target display
+-- Install configuration: ""
+-- Installing: /home/qiqi/桌面/boom_ws/install/display/lib/display/display
+-- Set runtime path of "/home/qiqi/桌面/boom_ws/install/display/lib/display/display" to ""
+-- Installing: /home/qiqi/桌面/boom_ws/install/display/share/ament_index/resource_index/package_run_dependencies/display
+-- Installing: /home/qiqi/桌面/boom_ws/install/display/share/ament_index/resource_index/parent_prefix_path/display
+-- Installing: /home/qiqi/桌面/boom_ws/install/display/share/display/environment/ament_prefix_path.sh
+-- Installing: /home/qiqi/桌面/boom_ws/install/display/share/display/environment/ament_prefix_path.dsv
+-- Installing: /home/qiqi/桌面/boom_ws/install/display/share/display/environment/path.sh
+-- Installing: /home/qiqi/桌面/boom_ws/install/display/share/display/environment/path.dsv
+-- Installing: /home/qiqi/桌面/boom_ws/install/display/share/display/local_setup.bash
+-- Installing: /home/qiqi/桌面/boom_ws/install/display/share/display/local_setup.sh
+-- Installing: /home/qiqi/桌面/boom_ws/install/display/share/display/local_setup.zsh
+-- Installing: /home/qiqi/桌面/boom_ws/install/display/share/display/local_setup.dsv
+-- Installing: /home/qiqi/桌面/boom_ws/install/display/share/display/package.dsv
+-- Installing: /home/qiqi/桌面/boom_ws/install/display/share/ament_index/resource_index/packages/display
+-- Installing: /home/qiqi/桌面/boom_ws/install/display/share/display/cmake/displayConfig.cmake
+-- Installing: /home/qiqi/桌面/boom_ws/install/display/share/display/cmake/displayConfig-version.cmake
+-- Installing: /home/qiqi/桌面/boom_ws/install/display/share/display/package.xml

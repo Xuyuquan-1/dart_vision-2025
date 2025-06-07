@@ -1,0 +1,46 @@
+[0.023s] Invoking command in '/home/qiqi/Desktop/boom_ws/build/serial': CMAKE_PREFIX_PATH=/home/qiqi/Desktop/boom_ws/install/vision_interfaces:/home/qiqi/Desktop/boom_ws/install/serial:/home/qiqi/Desktop/boom_ws/install/resolve:/home/qiqi/Desktop/boom_ws/install/hik_camera_ros2_driver:/home/qiqi/Desktop/boom_ws/install/display:/opt/ros/humble LD_LIBRARY_PATH=/home/qiqi/Desktop/boom_ws/install/vision_interfaces/lib:/usr/local/lib:/home/qiqi/Desktop/boom_ws/install/hik_camera_ros2_driver/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/qiqi/Desktop/boom_ws/build/serial -- -j8 -l8
+[0.094s] [35m[1mConsolidate compiler generated dependencies of target serial[0m
+[0.120s] [ 50%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cpp.o[0m
+[5.175s] [01m[K/home/qiqi/Desktop/boom_ws/src/serial/src/serial.cpp:[m[K In constructor ‘[01m[KSerialNode::SerialNode(const char*)[m[K’:
+[5.176s] [01m[K/home/qiqi/Desktop/boom_ws/src/serial/src/serial.cpp:36:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kname[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.176s]    36 |         SerialNode([01;35m[Kconst char* name[m[K): Node("serial_port_node") {
+[5.176s]       |                    [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[5.181s] [01m[K/home/qiqi/Desktop/boom_ws/src/serial/src/serial.cpp:[m[K In member function ‘[01m[Kvoid SerialNode::callback(vision_interfaces::msg::Uartf_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.181s] [01m[K/home/qiqi/Desktop/boom_ws/src/serial/src/serial.cpp:93:36:[m[K [01;35m[Kwarning: [m[Kright shift count >= width of type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshift-count-overflow-Wshift-count-overflow]8;;[m[K]
+[5.182s]    93 |                 pkg.data[2] = [01;35m[Kdx32 >> 0xfe[m[K;
+[5.182s]       |                               [01;35m[K~~~~~^~~~~~~[m[K
+[5.182s] [01m[K/home/qiqi/Desktop/boom_ws/src/serial/src/serial.cpp:94:36:[m[K [01;35m[Kwarning: [m[Kright shift count >= width of type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshift-count-overflow-Wshift-count-overflow]8;;[m[K]
+[5.182s]    94 |                 pkg.data[3] = [01;35m[Kdx32 >> 0xfe[m[K;
+[5.182s]       |                               [01;35m[K~~~~~^~~~~~~[m[K
+[5.182s] [01m[K/home/qiqi/Desktop/boom_ws/src/serial/src/serial.cpp:98:36:[m[K [01;35m[Kwarning: [m[Kright shift count >= width of type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshift-count-overflow-Wshift-count-overflow]8;;[m[K]
+[5.182s]    98 |                 pkg.data[7] = [01;35m[Kdy32 >> 0xff[m[K;
+[5.182s]       |                               [01;35m[K~~~~~^~~~~~~[m[K
+[5.182s] [01m[K/home/qiqi/Desktop/boom_ws/src/serial/src/serial.cpp:99:36:[m[K [01;35m[Kwarning: [m[Kright shift count >= width of type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshift-count-overflow-Wshift-count-overflow]8;;[m[K]
+[5.183s]    99 |                 pkg.data[8] = [01;35m[Kdy32 >> 0xff[m[K;
+[5.183s]       |                               [01;35m[K~~~~~^~~~~~~[m[K
+[5.183s] [01m[K/home/qiqi/Desktop/boom_ws/src/serial/src/serial.cpp:103:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.183s]   103 |                 for (int i = 0; [01;35m[Ki < sizeof(Package) - 1[m[K; i ++) {
+[5.183s]       |                                 [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[14.328s] [100%] [32m[1mLinking CXX executable serial[0m
+[15.158s] [100%] Built target serial
+[15.175s] Invoked command in '/home/qiqi/Desktop/boom_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=/home/qiqi/Desktop/boom_ws/install/vision_interfaces:/home/qiqi/Desktop/boom_ws/install/serial:/home/qiqi/Desktop/boom_ws/install/resolve:/home/qiqi/Desktop/boom_ws/install/hik_camera_ros2_driver:/home/qiqi/Desktop/boom_ws/install/display:/opt/ros/humble LD_LIBRARY_PATH=/home/qiqi/Desktop/boom_ws/install/vision_interfaces/lib:/usr/local/lib:/home/qiqi/Desktop/boom_ws/install/hik_camera_ros2_driver/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/qiqi/Desktop/boom_ws/build/serial -- -j8 -l8
+[15.190s] Invoking command in '/home/qiqi/Desktop/boom_ws/build/serial': CMAKE_PREFIX_PATH=/home/qiqi/Desktop/boom_ws/install/vision_interfaces:/home/qiqi/Desktop/boom_ws/install/serial:/home/qiqi/Desktop/boom_ws/install/resolve:/home/qiqi/Desktop/boom_ws/install/hik_camera_ros2_driver:/home/qiqi/Desktop/boom_ws/install/display:/opt/ros/humble LD_LIBRARY_PATH=/home/qiqi/Desktop/boom_ws/install/vision_interfaces/lib:/usr/local/lib:/home/qiqi/Desktop/boom_ws/install/hik_camera_ros2_driver/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --install /home/qiqi/Desktop/boom_ws/build/serial
+[15.200s] -- Install configuration: ""
+[15.201s] -- Installing: /home/qiqi/Desktop/boom_ws/install/serial/lib/serial/serial
+[15.206s] -- Set runtime path of "/home/qiqi/Desktop/boom_ws/install/serial/lib/serial/serial" to ""
+[15.206s] -- Up-to-date: /home/qiqi/Desktop/boom_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[15.206s] -- Up-to-date: /home/qiqi/Desktop/boom_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[15.206s] -- Up-to-date: /home/qiqi/Desktop/boom_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[15.206s] -- Up-to-date: /home/qiqi/Desktop/boom_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[15.207s] -- Up-to-date: /home/qiqi/Desktop/boom_ws/install/serial/share/serial/environment/path.sh
+[15.207s] -- Up-to-date: /home/qiqi/Desktop/boom_ws/install/serial/share/serial/environment/path.dsv
+[15.207s] -- Up-to-date: /home/qiqi/Desktop/boom_ws/install/serial/share/serial/local_setup.bash
+[15.207s] -- Up-to-date: /home/qiqi/Desktop/boom_ws/install/serial/share/serial/local_setup.sh
+[15.207s] -- Up-to-date: /home/qiqi/Desktop/boom_ws/install/serial/share/serial/local_setup.zsh
+[15.207s] -- Up-to-date: /home/qiqi/Desktop/boom_ws/install/serial/share/serial/local_setup.dsv
+[15.207s] -- Installing: /home/qiqi/Desktop/boom_ws/install/serial/share/serial/package.dsv
+[15.207s] -- Up-to-date: /home/qiqi/Desktop/boom_ws/install/serial/share/ament_index/resource_index/packages/serial
+[15.207s] -- Up-to-date: /home/qiqi/Desktop/boom_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[15.207s] -- Up-to-date: /home/qiqi/Desktop/boom_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[15.207s] -- Up-to-date: /home/qiqi/Desktop/boom_ws/install/serial/share/serial/package.xml
+[15.209s] Invoked command in '/home/qiqi/Desktop/boom_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=/home/qiqi/Desktop/boom_ws/install/vision_interfaces:/home/qiqi/Desktop/boom_ws/install/serial:/home/qiqi/Desktop/boom_ws/install/resolve:/home/qiqi/Desktop/boom_ws/install/hik_camera_ros2_driver:/home/qiqi/Desktop/boom_ws/install/display:/opt/ros/humble LD_LIBRARY_PATH=/home/qiqi/Desktop/boom_ws/install/vision_interfaces/lib:/usr/local/lib:/home/qiqi/Desktop/boom_ws/install/hik_camera_ros2_driver/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --install /home/qiqi/Desktop/boom_ws/build/serial

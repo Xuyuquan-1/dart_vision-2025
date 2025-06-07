@@ -1,0 +1,10 @@
+/home/new-sentry/Desktop/boom_ws/build/serial/CMakeFiles/uninstall.dir
+/home/new-sentry/Desktop/boom_ws/build/serial/CMakeFiles/serial_uninstall.dir
+/home/new-sentry/Desktop/boom_ws/build/serial/CMakeFiles/serial.dir
+/home/new-sentry/Desktop/boom_ws/build/serial/CMakeFiles/test.dir
+/home/new-sentry/Desktop/boom_ws/build/serial/CMakeFiles/edit_cache.dir
+/home/new-sentry/Desktop/boom_ws/build/serial/CMakeFiles/rebuild_cache.dir
+/home/new-sentry/Desktop/boom_ws/build/serial/CMakeFiles/list_install_components.dir
+/home/new-sentry/Desktop/boom_ws/build/serial/CMakeFiles/install.dir
+/home/new-sentry/Desktop/boom_ws/build/serial/CMakeFiles/install/local.dir
+/home/new-sentry/Desktop/boom_ws/build/serial/CMakeFiles/install/strip.dir

@@ -1,0 +1,6 @@
+Invoking command in '/home/new-sentry/Desktop/boom_ws/build/display': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/new-sentry/Desktop/boom_ws/src/display -DCMAKE_INSTALL_PREFIX=/home/new-sentry/Desktop/boom_ws/install/display
+Invoked command in '/home/new-sentry/Desktop/boom_ws/build/display' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/new-sentry/Desktop/boom_ws/src/display -DCMAKE_INSTALL_PREFIX=/home/new-sentry/Desktop/boom_ws/install/display
+Invoking command in '/home/new-sentry/Desktop/boom_ws/build/display': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/new-sentry/Desktop/boom_ws/build/display -- -j16 -l16
+Invoked command in '/home/new-sentry/Desktop/boom_ws/build/display' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/new-sentry/Desktop/boom_ws/build/display -- -j16 -l16
+Invoking command in '/home/new-sentry/Desktop/boom_ws/build/display': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/new-sentry/Desktop/boom_ws/build/display
+Invoked command in '/home/new-sentry/Desktop/boom_ws/build/display' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/new-sentry/Desktop/boom_ws/build/display

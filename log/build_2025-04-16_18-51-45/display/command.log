@@ -1,0 +1,4 @@
+Invoking command in '/home/xyq/Desktop/boom_ws/build/display': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xyq/Desktop/boom_ws/build/display -- -j20 -l20
+Invoked command in '/home/xyq/Desktop/boom_ws/build/display' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xyq/Desktop/boom_ws/build/display -- -j20 -l20
+Invoking command in '/home/xyq/Desktop/boom_ws/build/display': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xyq/Desktop/boom_ws/build/display
+Invoked command in '/home/xyq/Desktop/boom_ws/build/display' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xyq/Desktop/boom_ws/build/display

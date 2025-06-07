@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from vision_interfaces/msg/Uart.msg
+// generated code does not contain a copyright notice
+
+
+module vision_interfaces {
+  module msg {
+    struct Uart {
+      string deviation_x;
+
+      string deviation_y;
+
+      uint8 point_x;
+
+      uint8 point_y;
+
+      uint8 turned;
+    };
+  };
+};

@@ -1,0 +1,35 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/resolve.dir/src/resolve_node.cpp.o[0m
+[01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:[m[K In member function ‘[01m[Kvoid Resolve::Send(std::string, std::string)[m[K’:
+[01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:101:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::__cxx11::basic_string<char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  101 |                 for (int i=0; [01;35m[Ki<center_x.length()[m[K; i++) {
+      |                               [01;35m[K~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:107:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::__cxx11::basic_string<char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  107 |                 for (int i=0; [01;35m[Ki<center_y.length()[m[K; i++) {
+      |                               [01;35m[K~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:[m[K In member function ‘[01m[Kvoid slinding_window::del_element()[m[K’:
+[01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:182:41:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<cv::Point_<float> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  182 |                         if([01;35m[Kpoints.size()>window_size[m[K) {
+      |                            [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:[m[K In function ‘[01m[Kvoid ImageResolveCallback(const ConstSharedPtr&)[m[K’:
+[01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:262:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  262 |                 for (int i=0;[01;35m[Ki<contours.size()[m[K; i++) {
+      |                              [01;35m[K~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:277:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  277 |         for(int i = 0; [01;35m[Ki < area_vec.size()[m[K; i++) {
+      |                        [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:327:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontour_img[m[K’ was not declared in this scope; did you mean ‘[01m[Kcontours[m[K’?
+  327 |         imshow("conyours", [01;31m[Kcontour_img[m[K);
+      |                            [01;31m[K^~~~~~~~~~~[m[K
+      |                            [32m[Kcontours[m[K
+[01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:232:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  232 |         double [01;35m[Karea[m[K;
+      |                [01;35m[K^~~~[m[K
+[01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:239:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kimg_area[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  239 |         float [01;35m[Kimg_area[m[K = 1440*1080;
+      |               [01;35m[K^~~~~~~~[m[K
+[01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:245:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktext_cnt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  245 |         int [01;35m[Ktext_cnt[m[K = 0;
+      |             [01;35m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/resolve.dir/build.make:79：CMakeFiles/resolve.dir/src/resolve_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:153：CMakeFiles/resolve.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

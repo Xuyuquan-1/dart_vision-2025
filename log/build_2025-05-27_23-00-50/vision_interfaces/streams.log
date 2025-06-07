@@ -1,0 +1,312 @@
+[0.010s] Invoking command in '/home/new-sentry/Desktop/boom_ws/build/vision_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/new-sentry/Desktop/boom_ws/src/vision_interfaces -DCMAKE_INSTALL_PREFIX=/home/new-sentry/Desktop/boom_ws/install/vision_interfaces
+[0.040s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.040s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.040s]   CMake.
+[0.040s] 
+[0.040s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.040s]   to tell CMake that the project requires at least <min> but has been updated
+[0.041s]   to work with policies introduced by <max> or earlier.
+[0.041s] 
+[0.041s] [0m
+[0.116s] -- The C compiler identification is GNU 11.4.0
+[0.194s] -- The CXX compiler identification is GNU 11.4.0
+[0.212s] -- Detecting C compiler ABI info
+[0.261s] -- Detecting C compiler ABI info - done
+[0.303s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.304s] -- Detecting C compile features
+[0.305s] -- Detecting C compile features - done
+[0.323s] -- Detecting CXX compiler ABI info
+[0.376s] -- Detecting CXX compiler ABI info - done
+[0.417s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.417s] -- Detecting CXX compile features
+[0.419s] -- Detecting CXX compile features - done
+[0.427s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.525s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.592s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.668s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.678s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.698s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.730s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.772s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.880s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.885s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.001s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[1.044s] -- Found FastRTPS: /opt/ros/humble/include
+[1.098s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.111s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.163s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.166s] -- Found Threads: TRUE
+[1.315s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.356s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.664s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.187s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.393s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.397s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[2.397s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[2.398s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[2.398s]   the cmake_policy command to set the policy and suppress this warning.
+[2.398s] 
+[2.398s] Call Stack (most recent call first):
+[2.398s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.398s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.398s]   CMakeLists.txt:20 (rosidl_generate_interfaces)
+[2.398s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.398s] [0m
+[2.417s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6")
+[2.419s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.420s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[2.420s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[2.420s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[2.420s]   the cmake_policy command to set the policy and suppress this warning.
+[2.420s] 
+[2.420s] Call Stack (most recent call first):
+[2.420s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[2.420s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.420s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.420s]   CMakeLists.txt:20 (rosidl_generate_interfaces)
+[2.420s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.421s] [0m
+[2.436s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[2.436s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[2.436s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[2.436s]   the cmake_policy command to set the policy and suppress this warning.
+[2.436s] 
+[2.436s] Call Stack (most recent call first):
+[2.436s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[2.436s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.436s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.437s]   CMakeLists.txt:20 (rosidl_generate_interfaces)
+[2.437s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.437s] [0m
+[2.446s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5")
+[2.446s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.446s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.446s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.460s] -- Found PythonExtra: .so
+[2.517s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.542s] -- Added test 'lint_cmake' to check CMake code style
+[2.544s] -- Added test 'xmllint' to check XML markup files
+[2.549s] -- Configuring done (2.5s)
+[2.602s] -- Generating done (0.1s)
+[2.619s] -- Build files have been written to: /home/new-sentry/Desktop/boom_ws/build/vision_interfaces
+[2.632s] Invoked command in '/home/new-sentry/Desktop/boom_ws/build/vision_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/new-sentry/Desktop/boom_ws/src/vision_interfaces -DCMAKE_INSTALL_PREFIX=/home/new-sentry/Desktop/boom_ws/install/vision_interfaces
+[2.634s] Invoking command in '/home/new-sentry/Desktop/boom_ws/build/vision_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/new-sentry/Desktop/boom_ws/build/vision_interfaces -- -j16 -l16
+[2.657s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.662s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.667s] [  5%] Built target ament_cmake_python_copy_vision_interfaces
+[2.803s] running egg_info
+[2.803s] creating vision_interfaces.egg-info
+[2.803s] writing vision_interfaces.egg-info/PKG-INFO
+[2.803s] writing dependency_links to vision_interfaces.egg-info/dependency_links.txt
+[2.803s] writing top-level names to vision_interfaces.egg-info/top_level.txt
+[2.804s] writing manifest file 'vision_interfaces.egg-info/SOURCES.txt'
+[2.805s] reading manifest file 'vision_interfaces.egg-info/SOURCES.txt'
+[2.806s] writing manifest file 'vision_interfaces.egg-info/SOURCES.txt'
+[2.826s] [  5%] Built target ament_cmake_python_build_vision_interfaces_egg
+[2.837s] [  5%] Built target vision_interfaces__cpp
+[2.843s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.843s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.843s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.870s] [ 15%] [32mBuilding C object CMakeFiles/vision_interfaces__rosidl_generator_c.dir/rosidl_generator_c/vision_interfaces/msg/detail/uart__functions.c.o[0m
+[2.871s] [ 17%] [32mBuilding C object CMakeFiles/vision_interfaces__rosidl_generator_c.dir/rosidl_generator_c/vision_interfaces/msg/detail/uartf__functions.c.o[0m
+[2.908s] [ 20%] [32m[1mLinking C shared library libvision_interfaces__rosidl_generator_c.so[0m
+[2.936s] [ 20%] Built target vision_interfaces__rosidl_generator_c
+[2.940s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.941s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.941s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.004s] [ 30%] [32mBuilding CXX object CMakeFiles/vision_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vision_interfaces/msg/detail/uart__type_support.cpp.o[0m
+[3.004s] [ 33%] [32mBuilding CXX object CMakeFiles/vision_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vision_interfaces/msg/detail/uartf__type_support.cpp.o[0m
+[3.040s] [ 38%] [32mBuilding CXX object CMakeFiles/vision_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vision_interfaces/msg/detail/dds_fastrtps/uart__type_support.cpp.o[0m
+[3.040s] [ 38%] [32mBuilding CXX object CMakeFiles/vision_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vision_interfaces/msg/detail/dds_fastrtps/uartf__type_support.cpp.o[0m
+[3.083s] [ 41%] [32mBuilding CXX object CMakeFiles/vision_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vision_interfaces/msg/uart__type_support.cpp.o[0m
+[3.083s] [ 43%] [32mBuilding CXX object CMakeFiles/vision_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vision_interfaces/msg/uartf__type_support.cpp.o[0m
+[3.138s] [ 48%] [32mBuilding C object CMakeFiles/vision_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vision_interfaces/msg/detail/uart__type_support.c.o[0m
+[3.138s] [ 48%] [32mBuilding C object CMakeFiles/vision_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vision_interfaces/msg/detail/uartf__type_support.c.o[0m
+[3.171s] [ 51%] [32m[1mLinking C shared library libvision_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.171s] [ 56%] [32mBuilding CXX object CMakeFiles/vision_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vision_interfaces/msg/detail/uart__type_support_c.cpp.o[0m
+[3.171s] [ 56%] [32mBuilding CXX object CMakeFiles/vision_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vision_interfaces/msg/detail/uartf__type_support_c.cpp.o[0m
+[3.196s] [ 56%] Built target vision_interfaces__rosidl_typesupport_introspection_c
+[3.203s] [ 61%] [32mBuilding CXX object CMakeFiles/vision_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/vision_interfaces/msg/uartf__type_support.cpp.o[0m
+[3.203s] [ 61%] [32mBuilding CXX object CMakeFiles/vision_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/vision_interfaces/msg/uart__type_support.cpp.o[0m
+[3.230s] [ 64%] [32m[1mLinking CXX shared library libvision_interfaces__rosidl_typesupport_c.so[0m
+[3.270s] [ 64%] Built target vision_interfaces__rosidl_typesupport_c
+[3.291s] [ 66%] [32m[1mLinking CXX shared library libvision_interfaces__rosidl_typesupport_cpp.so[0m
+[3.314s] [ 66%] Built target vision_interfaces__rosidl_typesupport_cpp
+[3.345s] [ 69%] [32m[1mLinking CXX shared library libvision_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.382s] [ 71%] [32m[1mLinking CXX shared library libvision_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.401s] [ 71%] Built target vision_interfaces__rosidl_typesupport_introspection_cpp
+[3.426s] [ 71%] Built target vision_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.435s] [ 74%] [32m[1mLinking CXX shared library libvision_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.477s] [ 74%] Built target vision_interfaces__rosidl_typesupport_fastrtps_c
+[3.487s] [ 74%] Built target vision_interfaces
+[3.498s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.690s] [ 76%] Built target vision_interfaces__py
+[3.700s] [ 79%] [32mBuilding C object CMakeFiles/vision_interfaces__rosidl_generator_py.dir/rosidl_generator_py/vision_interfaces/msg/_uartf_s.c.o[0m
+[3.700s] [ 82%] [32mBuilding C object CMakeFiles/vision_interfaces__rosidl_generator_py.dir/rosidl_generator_py/vision_interfaces/msg/_uart_s.c.o[0m
+[3.778s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/vision_interfaces/libvision_interfaces__rosidl_generator_py.so[0m
+[3.801s] [ 84%] Built target vision_interfaces__rosidl_generator_py
+[3.809s] [ 92%] [32mBuilding C object CMakeFiles/vision_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/vision_interfaces/_vision_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.810s] [ 92%] [32mBuilding C object CMakeFiles/vision_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vision_interfaces/_vision_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.810s] [ 92%] [32mBuilding C object CMakeFiles/vision_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/vision_interfaces/_vision_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.862s] [100%] [32m[1mLinking C shared library rosidl_generator_py/vision_interfaces/vision_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.862s] [100%] [32m[1mLinking C shared library rosidl_generator_py/vision_interfaces/vision_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.862s] [100%] [32m[1mLinking C shared library rosidl_generator_py/vision_interfaces/vision_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.878s] [100%] Built target vision_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.880s] [100%] Built target vision_interfaces__rosidl_typesupport_c__pyext
+[3.880s] [100%] Built target vision_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.885s] Invoked command in '/home/new-sentry/Desktop/boom_ws/build/vision_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/new-sentry/Desktop/boom_ws/build/vision_interfaces -- -j16 -l16
+[3.886s] Invoking command in '/home/new-sentry/Desktop/boom_ws/build/vision_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/new-sentry/Desktop/boom_ws/build/vision_interfaces
+[3.891s] -- Install configuration: ""
+[3.891s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/ament_index/resource_index/rosidl_interfaces/vision_interfaces
+[3.891s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces
+[3.891s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg
+[3.891s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail
+[3.891s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/uart__functions.h
+[3.891s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/uart__struct.h
+[3.891s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/uart__functions.c
+[3.891s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/uartf__functions.h
+[3.891s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/uartf__struct.h
+[3.892s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/uartf__functions.c
+[3.892s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/uartf__type_support.h
+[3.892s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/uart__type_support.h
+[3.892s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/uart.h
+[3.892s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/uartf.h
+[3.892s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.892s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/environment/library_path.sh
+[3.892s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/environment/library_path.dsv
+[3.892s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/lib/libvision_interfaces__rosidl_generator_c.so
+[3.892s] -- Set non-toolchain portion of runtime path of "/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/lib/libvision_interfaces__rosidl_generator_c.so" to ""
+[3.892s] -- Up-to-date: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces
+[3.892s] -- Up-to-date: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg
+[3.892s] -- Up-to-date: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail
+[3.892s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/uart__rosidl_typesupport_fastrtps_c.h
+[3.892s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/uartf__rosidl_typesupport_fastrtps_c.h
+[3.893s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.893s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/lib/libvision_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.893s] -- Set non-toolchain portion of runtime path of "/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/lib/libvision_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[3.893s] -- Up-to-date: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces
+[3.893s] -- Up-to-date: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg
+[3.893s] -- Up-to-date: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail
+[3.893s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/uart__type_support.hpp
+[3.893s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/uart__builder.hpp
+[3.893s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/uartf__type_support.hpp
+[3.893s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/uartf__struct.hpp
+[3.893s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/uart__traits.hpp
+[3.893s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/uart__struct.hpp
+[3.893s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/uartf__builder.hpp
+[3.893s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/uartf__traits.hpp
+[3.894s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/uartf.hpp
+[3.894s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/uart.hpp
+[3.894s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.894s] -- Up-to-date: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces
+[3.894s] -- Up-to-date: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg
+[3.894s] -- Up-to-date: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail
+[3.894s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/uartf__rosidl_typesupport_fastrtps_cpp.hpp
+[3.894s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/dds_fastrtps
+[3.894s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/uart__rosidl_typesupport_fastrtps_cpp.hpp
+[3.894s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.894s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/lib/libvision_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.894s] -- Set non-toolchain portion of runtime path of "/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/lib/libvision_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.894s] -- Up-to-date: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces
+[3.894s] -- Up-to-date: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg
+[3.894s] -- Up-to-date: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail
+[3.894s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/uart__rosidl_typesupport_introspection_c.h
+[3.894s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/uartf__rosidl_typesupport_introspection_c.h
+[3.894s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/uartf__type_support.c
+[3.895s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/uart__type_support.c
+[3.895s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.895s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/lib/libvision_interfaces__rosidl_typesupport_introspection_c.so
+[3.895s] -- Set non-toolchain portion of runtime path of "/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/lib/libvision_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[3.895s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/lib/libvision_interfaces__rosidl_typesupport_c.so
+[3.895s] -- Set non-toolchain portion of runtime path of "/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/lib/libvision_interfaces__rosidl_typesupport_c.so" to ""
+[3.895s] -- Up-to-date: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces
+[3.895s] -- Up-to-date: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg
+[3.895s] -- Up-to-date: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail
+[3.895s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/uartf__rosidl_typesupport_introspection_cpp.hpp
+[3.895s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/uartf__type_support.cpp
+[3.895s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/uart__rosidl_typesupport_introspection_cpp.hpp
+[3.895s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/uart__type_support.cpp
+[3.895s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/lib/libvision_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.895s] -- Set non-toolchain portion of runtime path of "/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/lib/libvision_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[3.895s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/lib/libvision_interfaces__rosidl_typesupport_cpp.so
+[3.895s] -- Set non-toolchain portion of runtime path of "/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/lib/libvision_interfaces__rosidl_typesupport_cpp.so" to ""
+[3.895s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/environment/pythonpath.sh
+[3.895s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/environment/pythonpath.dsv
+[3.895s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces-0.0.0-py3.10.egg-info
+[3.895s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[3.895s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.896s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[3.896s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.896s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces
+[3.896s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces/vision_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.896s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces/__init__.py
+[3.896s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces/vision_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.896s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces/vision_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.896s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces/_vision_interfaces_s.ep.rosidl_typesupport_c.c
+[3.896s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces/msg
+[3.896s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces/msg/__init__.py
+[3.896s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces/msg/_uartf.py
+[3.896s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces/msg/_uartf_s.c
+[3.896s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces/msg/_uart_s.c
+[3.896s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces/msg/_uart.py
+[3.896s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces/libvision_interfaces__rosidl_generator_py.so
+[3.896s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces/_vision_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.896s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces/_vision_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.918s] Listing '/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces'...
+[3.918s] Compiling '/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces/__init__.py'...
+[3.918s] Listing '/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces/msg'...
+[3.918s] Compiling '/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces/msg/__init__.py'...
+[3.918s] Compiling '/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces/msg/_uart.py'...
+[3.918s] Compiling '/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces/msg/_uartf.py'...
+[3.921s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces/vision_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.921s] -- Set non-toolchain portion of runtime path of "/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces/vision_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.921s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces/vision_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.922s] -- Set non-toolchain portion of runtime path of "/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces/vision_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.922s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces/vision_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.922s] -- Set non-toolchain portion of runtime path of "/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces/vision_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.922s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/lib/libvision_interfaces__rosidl_generator_py.so
+[3.922s] -- Set non-toolchain portion of runtime path of "/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/lib/libvision_interfaces__rosidl_generator_py.so" to ""
+[3.922s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/msg/Uart.idl
+[3.922s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/msg/Uartf.idl
+[3.923s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/msg/Uart.msg
+[3.923s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/msg/Uartf.msg
+[3.923s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/ament_index/resource_index/package_run_dependencies/vision_interfaces
+[3.923s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/ament_index/resource_index/parent_prefix_path/vision_interfaces
+[3.923s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/environment/ament_prefix_path.sh
+[3.923s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/environment/ament_prefix_path.dsv
+[3.923s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/environment/path.sh
+[3.923s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/environment/path.dsv
+[3.923s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/local_setup.bash
+[3.923s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/local_setup.sh
+[3.923s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/local_setup.zsh
+[3.923s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/local_setup.dsv
+[3.924s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/package.dsv
+[3.924s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/ament_index/resource_index/packages/vision_interfaces
+[3.924s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/cmake/export_vision_interfaces__rosidl_generator_cExport.cmake
+[3.924s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/cmake/export_vision_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.924s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/cmake/export_vision_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.924s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/cmake/export_vision_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.924s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/cmake/export_vision_interfaces__rosidl_generator_cppExport.cmake
+[3.924s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/cmake/export_vision_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.924s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/cmake/export_vision_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.925s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/cmake/vision_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.925s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/cmake/vision_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.925s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/cmake/vision_interfaces__rosidl_typesupport_cExport.cmake
+[3.925s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/cmake/vision_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.925s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/cmake/vision_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.925s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/cmake/vision_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.925s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/cmake/vision_interfaces__rosidl_typesupport_cppExport.cmake
+[3.925s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/cmake/vision_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.925s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/cmake/export_vision_interfaces__rosidl_generator_pyExport.cmake
+[3.925s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/cmake/export_vision_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.925s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.925s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.926s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.926s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.926s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.926s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.926s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.926s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/cmake/vision_interfacesConfig.cmake
+[3.926s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/cmake/vision_interfacesConfig-version.cmake
+[3.926s] -- Installing: /home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/package.xml
+[3.928s] Invoked command in '/home/new-sentry/Desktop/boom_ws/build/vision_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/new-sentry/Desktop/boom_ws/build/vision_interfaces

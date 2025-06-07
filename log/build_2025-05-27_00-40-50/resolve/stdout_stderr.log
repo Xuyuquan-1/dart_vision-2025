@@ -1,0 +1,94 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+-- Found OpenCV: /usr (found version "4.5.4")
+-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+-- Found FastRTPS: /opt/ros/humble/include
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Found image_transport: 3.1.11 (/opt/ros/humble/share/image_transport/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found vision_interfaces: 0.0.0 (/home/new-sentry/Desktop/boom_ws/install/vision_interfaces/share/vision_interfaces/cmake)
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/new-sentry/Desktop/boom_ws/build/resolve
+[ 50%] [32mBuilding CXX object CMakeFiles/resolve.dir/src/resolve_node.cpp.o[0m
+[01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:[m[K In member function ‘[01m[Kvoid Resolve::Send(std::string, std::string)[m[K’:
+[01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:101:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::__cxx11::basic_string<char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  101 |                 for (int i=0; [01;35m[Ki<center_x.length()[m[K; i++) {
+      |                               [01;35m[K~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:107:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::__cxx11::basic_string<char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  107 |                 for (int i=0; [01;35m[Ki<center_y.length()[m[K; i++) {
+      |                               [01;35m[K~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:[m[K In member function ‘[01m[Kvoid slinding_window::del_element()[m[K’:
+[01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:182:41:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<cv::Point_<float> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  182 |                         if([01;35m[Kpoints.size()>window_size[m[K) {
+      |                            [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:[m[K In function ‘[01m[Kvoid ImageResolveCallback(const ConstSharedPtr&)[m[K’:
+[01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:254:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  254 |         for (int i=0;[01;35m[Ki<contours.size()[m[K; i++) {
+      |                      [01;35m[K~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:262:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  262 |                 for (int i=0;[01;35m[Ki<contours.size()[m[K; i++) {
+      |                              [01;35m[K~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:277:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  277 |         for(int i = 0; [01;35m[Ki < area_vec.size()[m[K; i++) {
+      |                        [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:232:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  232 |         double [01;35m[Karea[m[K;
+      |                [01;35m[K^~~~[m[K
+[01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:239:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kimg_area[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  239 |         float [01;35m[Kimg_area[m[K = 1440*1080;
+      |               [01;35m[K^~~~~~~~[m[K
+[01m[K/home/new-sentry/Desktop/boom_ws/src/resolving/src/resolve_node.cpp:245:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktext_cnt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  245 |         int [01;35m[Ktext_cnt[m[K = 0;
+      |             [01;35m[K^~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable resolve[0m
+[100%] Built target resolve
+-- Install configuration: ""
+-- Installing: /home/new-sentry/Desktop/boom_ws/install/resolve/lib/resolve/resolve
+-- Set non-toolchain portion of runtime path of "/home/new-sentry/Desktop/boom_ws/install/resolve/lib/resolve/resolve" to ""
+-- Installing: /home/new-sentry/Desktop/boom_ws/install/resolve/share/ament_index/resource_index/package_run_dependencies/resolve
+-- Installing: /home/new-sentry/Desktop/boom_ws/install/resolve/share/ament_index/resource_index/parent_prefix_path/resolve
+-- Installing: /home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/environment/ament_prefix_path.sh
+-- Installing: /home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/environment/ament_prefix_path.dsv
+-- Installing: /home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/environment/path.sh
+-- Installing: /home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/environment/path.dsv
+-- Installing: /home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/local_setup.bash
+-- Installing: /home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/local_setup.sh
+-- Installing: /home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/local_setup.zsh
+-- Installing: /home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/local_setup.dsv
+-- Installing: /home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/package.dsv
+-- Installing: /home/new-sentry/Desktop/boom_ws/install/resolve/share/ament_index/resource_index/packages/resolve
+-- Installing: /home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/cmake/resolveConfig.cmake
+-- Installing: /home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/cmake/resolveConfig-version.cmake
+-- Installing: /home/new-sentry/Desktop/boom_ws/install/resolve/share/resolve/package.xml
